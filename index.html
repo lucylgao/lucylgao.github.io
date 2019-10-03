@@ -18,19 +18,22 @@
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Lucy Gao</a></h1>
-					<p>Biostatistics Ph.D. candidate at the University of Washington </p>
+					<p>Biostatistics Ph.D. candidate at the University of Washington. [<a href=CV.pdf>CV</a>] </p>
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Research</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#about" class="active">About</a></li>
+						<li><a href="#research">Research</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/lucygao" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					</ul>
+          <ul class="icons">
+            <li><a href="cv.pdf" class="icon fas fa-file-pdf"><span class="label">Curriculum Vitae</span></a></li>
+            <li><a href="https://scholar.google.ca/citations?user=5lNKqhIAAAAJ" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
+            <li><a href="https://www.linkedin.com/in/lucy-gao-2120b974" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <!-- <li><a href="https://github.com/lucygao" class="icon brands fa-github"><span class="label">Github</span></a></li> -->
+          </ul>
 				</footer>
 			</section>
 
@@ -41,49 +44,75 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="about">
 								<!--<div class="image main" data-position="center">
 									<img src="images/banner.jpg" alt="" />
 								</div>-->
-								<div class="container">
-									<header class="major">
-										<h2>About</h2>
-									</header>
-									<p>I am a Ph.D. candidate in the <a href="https://www.biostat.washington.edu/">Department of Biostatistics</a> at the <a href="http://www.washington.edu/">University of Washington</a> advised by <a href="http://www.danielawittten.com">Daniela Witten</a>. I completed an Honours B.Sc. in Combined Mathematics and Statistics at the <a href="https://www.uvic.ca/"> University of Victoria</a>. During my B.Sc., my research was advised by <a href="http://www.math.uvic.ca/~jzhou/">Julie Zhou</a>.  For more details, see my [<a href=CV.pdf>CV</a>]. </p> 
-									
-									<p> My research interests are in 1) using statistical machine learning to solve problems in complex data settings, such as multi-view data, network data, compositional data, and spatial data, and 2) applying novel optimization methods to the design of experiments. These diverse directions are unified by the common theme of using optimization to solve problems in statistics. </p>
-								</div>
+                <div class="container">
+                  <header class="major">
+                    <h2>About</h2>
+                  </header>
+                  <p>I am a Ph.D. candidate in the <a href="https://www.biostat.washington.edu/">Department of Biostatistics</a> at the <a href="http://www.washington.edu/">University of Washington</a> advised by <a href="http://www.danielawittten.com">Daniela Witten</a>. I completed an Honours B.Sc. in Combined Mathematics and Statistics at the <a href="https://www.uvic.ca/"> University of Victoria</a>. During my B.Sc., my research was advised by <a href="http://www.math.uvic.ca/~jzhou/">Julie Zhou</a>. 
+
+                  
+                  <p> My research interests are in:<p>
+                  <ol>
+                    <li>using statistical machine learning to solve problems in complex data settings, such as multi-view data, network data, compositional data, and spatial data, and</li>
+                    <li>applying novel optimization methods to the design of experiments.</li>
+                  </ol>
+                  <p>These diverse directions are unified by the common theme of using optimization to solve problems in statistics. </p>
+
+                  <div class="row aln-center button-group">
+                    <a href="CV.pdf" class="col-7-small button link primary"><i class="fas fa-file-pdf"></i>Curriculum Vitae</a>
+                    <a href="https://scholar.google.ca/citations?user=5lNKqhIAAAAJ" class="col-7-small button link primary"><i class="fab fa-google"></i>Google Scholar</a>
+                    <a href="https://www.linkedin.com/in/lucy-gao-2120b974" class="col-7-small button link primary"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                  </div>
+                </div>
 							</section>
 
 
 						<!-- Three -->
-							<section id="two">
+							<section id="research">
 								<div class="container">
-									<h2>Research</h2>
+									<header class="major">
+										<h2>Research</h2>
+									</header>
 									<div class="features">
 										<article>
-											<h3>Learning from Multi-View Data</h3>
+											<h3>1. Learning from Multi-View Data</h3>
 												<p>In the multi-view data setting, multiple data sets (<i>views</i>) are available on a single common set of observations. For example,  multivariate clinical and genomic data sets may be available on a single set of tissue samples, or we may have two network data sets that describe physical interactions and co-membership in protein complexes between a single set of proteins. </p>
 												<h4> Publications </h4> 
     											<ul>
-												  <li><b>Lucy L. Gao</b>, Jacob Bien, and Daniela Witten (2019) <b>Are clusterings of multiple data views independent?</b> To appear in <i>Biostatistics</i>. <a href="https://arxiv.org/abs/1901.03905">[pdf]</a> <a href="https://cran.r-project.org/web/packages/multiviewtest/index.html">[cran]</a> </li>
-												  <li><b>Lucy L. Gao</b>, Daniela Witten, and Jacob Bien (2019+) <b>Testing for association in multi-view network data</b>, submitted to <i>Journal of Computational and Graphical Statistics</i>. <a href="https://arxiv.org/pdf/1909.11640">[pdf]</a> <a href="https://cran.r-project.org/web/packages/multiviewtest/index.html">[cran]</a> </li>
+												  <li><b>Lucy L. Gao</b>, Jacob Bien, and Daniela Witten (2019) <b>Are clusterings of multiple data views independent?</b> To appear in <i>Biostatistics</i>. <strong><a href="https://arxiv.org/abs/1901.03905">[pdf]</a></strong> <strong><a href="https://cran.r-project.org/web/packages/multiviewtest/index.html">[cran]</a></strong> </li>
+												 
 												</ul>
+												
+												<h4> Preprints </h4>
+												<ul>
+													 <li><b>Lucy L. Gao</b>, Daniela Witten, and Jacob Bien (2019+) <b>Testing for association in multi-view network data</b>, submitted to <i>Journal of Computational and Graphical Statistics</i>. <strong><a href="https://arxiv.org/pdf/1909.11640">[pdf]</a></strong> <strong><a href="https://cran.r-project.org/web/packages/multiviewtest/index.html">[cran]</a></strong> </li>
+												</ul>
+																								
+												
 										</article>
 										<article>
-											<h3>Optimal Experiment Design</h3>
+											<h3>2. Optimal Experiment Design</h3>
 												<p>The number of replicates in experiments limits the amount of information that is available, but we maximize the amount of information gained by carefully choosing the values of the experimental inputs. This is the central problem of optimal experiment design. </p>
+												
 												<h4> Publications </h4> 
     											<ul>
+												  <li><b>Lucy L. Gao</b> and Julie Zhou (2017)  <b>D-optimal designs based on the second-order least squares estimator</b>. <i>Statistical Papers</i>,  58(2): 77-94.</li>													
 												  <li><b>Lucy L. Gao</b> and Julie Zhou (2014) <b>New optimal design criteria for regression models with asymmetric errors</b>. <i>Journal of Statistical Planning and Inference</i>, 149: 140-151.</li>
-												  <li><b>Lucy L. Gao</b> and Julie Zhou (2017)  <b>D-optimal designs based on the second-order least squares estimator</b>. <i>Statistical Papers</i>,  58(2): 77-94.</li>
 													<!--submitted to <i>Communications in Statistics - Theory and Methods</i>. <a href="https://arxiv.org/pdf/1909.11640">[pdf]</a> </li>-->
-												 <li> <b>Lucy L. Gao</b> and Julie Zhou (2019+). <b>Minimax D-optimal designs for multivariate regression models with multi-factors</b>, submitted to <i>Journal of Statistical Planning and Inference</i>.  </li>
-												 <li>Pengqi Liu, <b>Lucy L. Gao</b>, and Julie Zhou (2019+). <b>R-optimal designs for multi-response regression models with multi-factors</b>, preprint.
+												</ul> 
+												
+												<h4> Preprints </h4>
+												<ul>
+												 <li> <b>Lucy L. Gao</b> and Julie Zhou (2019+). <b>Minimax D-optimal designs for multivariate regression models with multi-factors</b>, submitted to <i>Journal of Statistical Planning and Inference</i>. <strong><a href="https://arxiv.org/abs/1910.00745">[pdf]</a></strong></li>
+												 <li>Pengqi Liu, <b>Lucy L. Gao</b>, and Julie Zhou (2019+). <b>R-optimal designs for multi-response regression models with multi-factors</b>.
 												</ul>
 										<article>
-											<h3>Collaborative Research</h3>
-												<p>During the first year of my Ph.D., I collaborated with researchers at the Seattle Children’s Research Institute to characterize liver transplantation offers to pediatric patients for researchers. </p>
+											<h3>3. Collaborative Research</h3>
+												<p>During the first year of my Ph.D., I collaborated with researchers at the Seattle Children’s Research Institute to characterize liver transplantation offers to pediatric patients. </p>
 												<h4> Publications </h4> 
     											<ul>
 												  <li>Evelyn Hsu, Michele Shaffer, <b>Lucy L. Gao</b>, Christopher Sonnenday, Michael Volk, John Bucuvalas, and Jennifer Lai (2017) <b>Analysis of liver offers to pediatric candidates on the transplant wait list</b>. <i>Gastroenterology</i>, 153(4): 988-995.</li>
@@ -94,10 +123,11 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four">
+							<section id="contact">
 								<div class="container">
-									<h3>Contact Me</h3>
-									<p>lucygao at uw dot edu</p>
+									<h2>Contact Me</h2>
+									<p> <b>Address</b>: Box 357232, University of Washington, Seattle, WA 98195-7232 <br />
+									<b>Email</b>: lucygao at uw dot edu</p>
 							</section>
 
 						<!-- Five -->
