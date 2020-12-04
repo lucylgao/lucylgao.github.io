@@ -366,7 +366,7 @@ table(dat$species, cl)</code></pre>
 <p>In the results above, the estimated p-value comes from Monte Carlo, which means that it is subject to Monte Carlo sampling error. Thus, we also report a standard error estimate for the p-value, that captures the uncertainty due to Monte Carlo sampling error. If more precision is desired, you could adjust the number of Monte Carlo samples using the <code>ndraws</code> argument of <code>test_clusters_approx</code>. Since we opted to pass in the estimated clusters <code>cl</code>, the output under <code>$clusters</code> just prints <code>cl</code>. If we had opted to not pass in the estimated clusters <code>cl</code>, then the <code>test_clusters_approx</code> function would run <code>km_cluster(X)</code>, and return it in the <code>$clusters</code> output.</p>
 <p>Observe that the estimated p-value for a difference in means between Cluster 1 and Cluster 2 is small - this is good, because the penguin species are different in the two clusters.</p>
 <hr />
-<p>© 2020 <a href="http://www.lucylgao.com/">Lucy L. Gao</a> (lucy dot gao at uwaterloo dot ca)</p>
+<p>© 2020 <a href="http://www.lucylgao.com/">Lucy L. Gao</a> (lucylgao at uwaterloo dot ca)</p>
 </div>
 
 
