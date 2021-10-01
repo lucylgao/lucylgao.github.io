@@ -1742,7 +1742,7 @@ input[type="button"],
       #header > nav ul li {
         border-top: solid 2px #1a756e;
         display: block;
-        padding: 0; }
+        padding: 0em; }
         #header > nav ul li a {
           -moz-transition: none;
           -webkit-transition: none;
@@ -1751,7 +1751,7 @@ input[type="button"],
           border: 0;
           color: #ffffff !important;
           display: block;
-          padding: 0.85em 0;
+          padding: 0.2em 0em;
           text-decoration: none; }
           #header > nav ul li a.active {
             background: #fff;
@@ -1778,7 +1778,7 @@ input[type="button"],
   border-top: 0;
   color: #c0c0c0;
   overflow: hidden;
-  padding: 4em 0 2em 0; }
+  padding: 0em 0 0em 0; }
   #footer .copyright {
     line-height: 1em;
     list-style: none;
