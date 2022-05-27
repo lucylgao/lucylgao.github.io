@@ -24,8 +24,8 @@
 					<ul>
 						<li><a href="index.html">About</a></li>
 						<li><a href="research.html">Research</a></li>
+						<li><a href="publications.html">Publications</a></li>
 						<li><a href="resources.html">Resources</a></li>
-						<li><a href="software.html">Software</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
@@ -49,65 +49,42 @@
 						<!-- Three -->
 							<section id="research">
 								<div class="container">
+								  <p> </p>
+								  
 									<header class="major">
-										<h2>Research</h2>
+										<h2>Research Themes</h2>
 									</header>
+									
 									<div class="features">
+									  
+									 
 										<article>
-											<h3>1. Valid inference after "double-dipping" </h3>
-												<p>As data sets continue to grow in size, in many settings the focus of data collection has shifted away from testing pre-specified hypotheses, and towards hypothesis generation. Researchers are often interested in performing an exploratory data analysis in order to generate hypotheses, and then testing those hypotheses on the same data; I call this "double-dipping". Unfortunately, double dipping can lead to a highly inflated Type I error rate. Of late, I have been working on solving the "double-dipping" problem for a number of commonly-used analyses, using tools from the selective inference and post-selection inference literature. </p>
+										  
+										  
+									  
+											<h3>1. Selective Inference </h3>
+												<p><a href="https://www.selectiveinferenceseminar.com/">This covers any complication that arises when you use your data multiple times</a>. For example, a researcher might explore their data using statistical machine learning in order to generate interesting hypotheses, and then test those hypotheses using the same data. Doing so invalidates the properties of classical statistical hypothesis tests. A great way to learn about my selective inference work is through <a href = "https://www.youtube.com/watch?v=7h6B9c6yBSs">this recording</a> of my talk.</p>
 												
-												<h4> Preprints </h4>
+												<u> Publications and Preprints:</u> #1 and #2 on the <a href="publications.html">Publications</a> tab.
 												<ul>
-													<li> Anna Neufeld, <b> Lucy L. Gao</b>, and Daniela Witten (2021+) Tree-values: selective inference for regression trees. <strong> <a href="https://arxiv.org/pdf/2106.07816.pdf"> [pdf] </a> </strong> <strong> <a href="https://anna-neufeld.github.io/treevalues/articles/overview.html">[website]</a></strong> <strong> <a href="https://github.com/anna-neufeld/treevalues/"> [github] </a> </strong> <strong> <a href="https://github.com/anna-neufeld/treevalues-simulations"> [code] </a> </strong>
-													 <li><b>Lucy L. Gao</b>, Jacob Bien, and Daniela Witten (2021+) Selective inference for hierarchical clustering. <strong><a href="https://arxiv.org/abs/2012.02936"> [pdf]</a></strong> <strong><strong><a href="clusterpval/index.html">[website]</a></strong> <strong><a href="https://github.com/lucylgao/clusterpval">[github]</a></strong>  <a href="https://github.com/lucylgao/clusterpval-experiments">[code]</a></strong>
-														 </li>
-												</ul>
-																								
 												
 										</article>					
 										
 										<article>
-											<h3>2. Learning from Multi-View Data</h3>
-												<p>In the multi-view data setting, multiple data sets (<i>views</i>) are available on a single common set of observations. For example,  multivariate clinical and genomic data sets may be available on a single set of tissue samples, or we may have two network data sets that describe physical interactions and co-membership in protein complexes between a single set of proteins. </p>
-												<h4> Publications </h4> 
-    											<ul>
-													
-												 <li><b>Lucy L. Gao</b>, Daniela Witten and Jacob Bien (2021+) Testing for association in multi-view network data. To appear in <i>Biometrics</i>.  <strong><a href="https://arxiv.org/pdf/1909.11640">[pdf]</a></strong> <strong><a href="https://cran.r-project.org/web/packages/multiviewtest/index.html">[cran]</a></strong> <strong><a href="https://github.com/lucylgao/mv-network-test-code">[code]</a></strong>
-													 <br> <b>[Received a 2020 ASA Statistical Learning and Data Science Section Student Paper Award.]</b>
-													 </li>
-												  <li><b>Lucy L. Gao</b>, Jacob Bien and Daniela Witten (2020) Are clusterings of multiple data views independent? <i>Biostatistics</i>, 21(4), 692-708. <strong><a href="https://arxiv.org/abs/1901.03905">[pdf]</a></strong> 
-													  <strong><a href="https://cran.r-project.org/web/packages/multiviewtest/index.html">[cran]</a></strong>   
-													  <strong><a href="https://github.com/lucylgao/independent-clusterings-code">[code]</a></strong>
-													  <br><b>[Received a 2019 ASA Biometrics Section Student Travel Award.]</b> 
-	
-												  </li>
-												 
-												</ul>
-												
+											<h3>2. Inference x Unsupervised Learning</h3>
+												<p> <a href="https://www.statlearning.com/">Unsupervised machine learning</a> learns relationships and structures from our data without the help of outputs: this includes clustering and dimension reduction. These methods are used to explore and understand our data, often with the ultimate goal of generating interesting insights for followup investigation. I'm interested in finding ways to test hypotheses about the structures and relationships we learn from our data, often within the framework of latent variable models. </p>
+
+<u> Publications and Preprints:</u> #1, #2, #3, and #6 on the <a href="publications.html">Publications</a> tab.
 																								
 												
 										</article>
 										<article>
-											<h3>3. Optimal Experiment Design</h3>
-												<p>The number of replicates in experiments limits the amount of information that is available, but we maximize the amount of information gained by carefully choosing the values of the experimental inputs. This is the central problem of optimal experiment design. </p>
+											<h3>3. Statistics x Optimization</h3>
+												<p>Optimization is used for everything in statistics - we use it to estimate, to predict, to infer, and to design. I enjoy learning from and working closely with colleagues in optimization to apply optimization theory and algorithms for statistical tasks. This interest has served me especially well in the area of optimal experiment design, where we think about how we should choose our experimental inputs in order to get as much information out of our experiment as possible. It also comes up in the context of some statistical machine learning problems I have worked on.   </p>
 												
-												<h4> Publications </h4> 
-    											<ul>
-													<li> Pengqi Liu, <b>Lucy L. Gao</b> and Julie Zhou (2021+). R-optimal designs for multi-response regression models with multi-factors. To appear in <i>Communications in Statistics - Theory and Methods.</i> <strong><a href="http://arxiv.org/abs/1910.02539">[pdf]</a></strong> </li> 
-													
-													<li> <b>Lucy L. Gao</b> and Julie Zhou (2020). Minimax D-optimal designs for multivariate regression models with multi-factors. <i> Journal of Statistical Planning and Inference </i>. <strong><a href="https://arxiv.org/abs/1910.00745">[pdf]</a></strong></li>
-												  <li><b>Lucy L. Gao</b> and Julie Zhou (2017)  D-optimal designs based on the second-order least squares estimator. <i>Statistical Papers</i>,  58(2): 77-94.</li>													
-												  <li><b>Lucy L. Gao</b> and Julie Zhou (2014) New optimal design criteria for regression models with asymmetric errors. <i>Journal of Statistical Planning and Inference</i>, 149: 140-151.</li>
-												</ul> 
-	
-											<h3>4. Collaborative Research</h3>
-												<p>During the first year of my Ph.D., I collaborated with researchers at the Seattle Children’s Research Institute to characterize liver transplantation offers to pediatric patients. </p>
-												<h4> Publications </h4> 
-    											<ul>
-												  <li>Evelyn Hsu, Michele Shaffer, <b>Lucy L. Gao</b>, Christopher Sonnenday, Michael Volk, John Bucuvalas and Jennifer Lai (2017) <b>Analysis of liver offers to pediatric candidates on the transplant wait list</b>. <i>Gastroenterology</i>, 153(4): 988-995.</li>
-												</ul>
-										<article>
+												<u> Publications and Preprints:</u> #3, #4, #5, #6, #7, #9, and #10 on the <a href="publications.html">Publications</a> tab.
+												
+										</article>
 									</div>
 								</div>
 							</section>
