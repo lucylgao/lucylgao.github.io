@@ -1,0 +1,34 @@
+---
+title: "Technical Details"
+---
+
+
+## Model 
+We model n observations of a $p$-vector as a matrix Gaussian:
+$${\bf X} \sim \mathcal{MN}_{n \times p} (\boldsymbol{\mu}, {\bf I}_n, \sigma^2 {\bf I}_p),$$
+where $\boldsymbol{\mu} \in \mathbb{R}^{n \times p}$, with rows $\mu_i$, is unknown, and $\sigma^2 > 0$ is known. This says that the rows $X_i \in \mathbb{R}^p$ of ${\bf X}$ are independent multivariate Gaussian random vectors with mean $\mu_i$ and covariance matrix $\sigma^2 {\bf I}_p$. 
+
+## Problem set-up
+Given any realization ${\bf x} \in \mathbb{R}^{n \times p}$ of ${\bf X}$, we consider clustering ${\bf x}$ to obtain $\mathcal{C}({\bf x})$, a partition of $\{1, 2, \ldots, n\}$, then using ${\bf x}$ to test, for a pair of clusters $C_1, C_2 \in \mathcal{C}({\bf x})$: 
+$$ H_0: \bar{\mu}_{C_1} = \bar{\mu}_{C_2} \quad \text{vs.}\quad H_1: \bar{\mu}_{C_1} \neq \bar{\mu}_{C_2}, $$ 
+where $\bar{\mu}_{C_k} = \sum \limits_{i \in C_k} \mu_i/|C_k|$ is the mean of $\boldsymbol \mu$ in $C_k$. Let $\bar{X}_{C_k} = \sum \limits_{i \in C_k} X_i/|C_k|$ be the empirical mean in ${\bf X}$ of $C_k$. One might be tempted to simply apply a Wald test of $H_0: \bar{\mu}_{C_1} = \bar{\mu}_{C_2}$, with p-value given by 
+$$ \mathbb{P}_{H_0} (\|\bar{X}_{C_1} - \bar{X}_{C_2}\|_2 \geq \|\bar{x}_{C_1} - \bar{x}_{C_2}\|_2), $$
+where $\|\bar{X}_{C_1} - \bar{X}_{C_2}\| \sim \left ( \sigma \sqrt{1/|C_1| + 1/|C_2|} \right ) \cdot \chi_p$. However, since the Wald test does not account for the fact that the clusters $C_1$ and $C_2$ were estimated from the data, it is virtually guaranteed to find a statistically significant difference between them. (Somewhat unintuitively, this problem cannot be solved by splitting the data into training and test sets; [click here](https://twitter.com/lucylgao/status/1299763664644313089) for an illustration.)
+
+## Our Solution
+Roughly speaking, our framework is a version of the Wald test of $H_0: \bar{\mu}_{C_1} = \bar{\mu}_{C_2}$ that conditions on the fact that we estimated $C_1$ and $C_2$ from the data, and therefore yields valid p-values. The p-values from our framework can be written as 
+$$ \mathbb{P}(\phi \geq \|\bar{x}_{C_1} - \bar{x}_{C_2}\|_2 \mid \phi \in \mathcal{S}),$$
+where $\phi \sim \left ( \sigma \sqrt{1/|C_1| + 1/|C_2|} \right ) \cdot \chi_p$, 
+$$\mathcal{S} = \{\phi: \text{Clustering } {\bf x}'(\phi) \text{ yields the clusters } C_1 \text{ and } C_2 \},$$
+and ${\bf x}'(\phi)$ is a perturbed version of ${\bf x}$, where observations in clusters $C_1$ and $C_2$ have been pulled apart (if $\phi >  \|\bar{x}_{C_1} - \bar{x}_{C_2}\|_2$) or pushed together  (if $\phi <  \|\bar{x}_{C_1} - \bar{x}_{C_2}\|_2$) in the direction of $\bar{x}_{C_1} - \bar{x}_{C_2}$. 
+
+If we can compute the conditioning set $\mathcal{S}$, then we can compute p-values exactly. Our software currently computes $\mathcal{S}$ for hierarchical clustering with squared Euclidean distance and single, average, weighted, centroid, median, or Ward linkage; see Section 3 of [our paper](www.arxiv.com) for a description of the algorithms we use to compute $\mathcal{S}$. For hierarchical clustering with other linkages or non-hierarchical clustering methods, our software approximates the p-value using Monte Carlo sampling; details are in Section 4.1 of [our paper](www.arxiv.com). 
+
+## Extensions
+Our software can also compute p-values under the alternative model 
+$${\bf X} \sim \mathcal{MN}_{n \times p} (\boldsymbol{\mu}, {\bf I}_n, \boldsymbol{\Sigma}),$$
+where $\boldsymbol{\Sigma}$ is a known positive definite matrix; details are in Section 4.2 of [our paper](www.arxiv.com). 
+
+---
+© 2020 [Lucy L. Gao](http://www.lucylgao.com/) (lucylgao at uwaterloo dot ca)
+

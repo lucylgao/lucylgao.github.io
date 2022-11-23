@@ -1,0 +1,52 @@
+---
+title: "Research"
+sidebar: false
+---
+
+# Research Themes
+
+## 1. Selective Inference 
+
+Roughly speaking, this covers complications that can arise when you decide on the details of your data analysis using the data that you're analyzing. For example, a researcher might explore their data using statistical machine learning in order to generate interesting hypotheses, and then test those hypotheses using the same data. Doing so invalidates the properties of classical statistical hypothesis tests.
+
+## 2. Inference × Unsupervised Learning
+
+Unsupervised machine learning learns relationships and structures from our data without the help of outputs: this includes clustering and dimension reduction. These methods are used to explore and understand our data, often with the ultimate goal of generating interesting insights for followup investigation. I'm interested in finding ways to test hypotheses about the structures and relationships we learn from our data, often within the framework of latent variable models.
+
+## 3. Statistics × Optimization 
+
+Optimization is used for everything in statistics - we use it to estimate, to predict, to infer, and to design. I enjoy learning from and working closely with colleagues in optimization to apply optimization theory and algorithms for statistical tasks. This interest has served me especially well in the area of optimal experiment design, where we think about how we should choose our experimental inputs in order to get as much information out of our experiment as possible. It also comes up in the context of some statistical machine learning problems I have worked on.
+
+# Publications
+
+In the following, \* represents alphabetical author ordering.
+
+## Pre-prints 
+
+Anna Neufeld, **Lucy L. Gao**, Joshua Popp, Alexis Battle, and Daniela Witten (2022+) Inference after latent variable estimation for single-cell RNA-sequencing data. arXiv:2207.00554. [[pdf](https://arxiv.org/abs/2207.00554)] [[software](https://anna-neufeld.github.io/countsplit/)]
+
+## Accepted
+
+Anna Neufeld, **Lucy L. Gao**, and Daniela Witten (2022+) Tree-values: selective inference for regression trees. *To appear in Journal of Machine Learning Research*. [[pdf](https://arxiv.org/pdf/2106.07816.pdf)] [[software](https://anna-neufeld.github.io/treevalues/)]
+
+**Lucy L. Gao**, Jacob Bien, and Daniela Witten (2022+) Selective inference for hierarchical clustering. To appear in *Journal of the American Statistical Association*. [[pdf](https://arxiv.org/abs/2012.02936)] [[software](clusterpval)]
+
+## 2022 
+
+**Lucy L. Gao**, Daniela Witten and Jacob Bien (2022) Testing for association in multi-view network data. *Biometrics*, 78(3), 1018-1030. [[pdf](https://arxiv.org/pdf/1909.11640)] [[software](https://cran.r-project.org/web/packages/multiviewtest/index.html)]
+
+**Lucy L. Gao**\*, Jane J. Ye\*, Haian Yin\*, Shangzhi Zeng\*, Jin Zhang\* (2022). Value function based difference-of-convex algorithm for bilevel hyperparameter selection problems. *Proceedings of International Conference on Machine Learning (ICML) 2022*. [[pdf](https://arxiv.org/abs/2206.05976)] [[code](https://github.com/SUSTech-Optimization/VF-iDCA)]
+
+Pengqi Liu, **Lucy L. Gao** and Julie Zhou (2022). R-optimal designs for multi-response regression models with multi-factors. *Communications in Statistics - Theory and Methods*, 51(2), 340-355. [[pdf](https://arxiv.org/abs/1910.02539)]
+
+## 2020
+
+**Lucy L. Gao**, Jacob Bien and Daniela Witten (2020). Are clusterings of multiple data views independent? Biostatistics, 21(4), 692-708. [[pdf](https://arxiv.org/abs/1901.03905)] [[software](https://cran.r-project.org/web/packages/multiviewtest/index.html)]
+
+**Lucy L. Gao** and Julie Zhou (2020). Minimax D-optimal designs for multivariate regression models with multi-factors. *Journal of Statistical Planning and Inference*.  [[pdf](https://arxiv.org/abs/1910.00745)]
+
+## 2015-2019
+
+**Lucy L. Gao**\* and Julie Zhou\* (2017) D-optimal designs based on the second-order least squares estimator. *Statistical Papers*, 58(2), 77-94. [[pdf](https://dspace.library.uvic.ca:8443/handle/1828/7383)]
+
+**Lucy L. Gao** and Julie Zhou (2014) New optimal design criteria for regression models with asymmetric errors. *Journal of Statistical Planning and Inference*, 149: 140-151.

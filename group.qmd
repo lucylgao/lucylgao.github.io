@@ -1,0 +1,43 @@
+---
+sidebar: false
+---
+
+# Research Group 
+
+## PhD students
+
+**Andrew Kenig**, Waterloo Statistics PhD |  2021-current 
+
+- Co-supervised with [Shoja'eddin Chenouri](https://uwaterloo.ca/statistics-and-actuarial-science/people-profiles/shojaeddin-chenouri)
+
+## Alumni
+
+**Steven Mak**, Waterloo MMath | 2021-2022 
+
+**Qiaoyu Liang**, Waterloo MMath |  2020-2021 
+
+- First position after graduation: PhD Statistics student at the University of Toronto
+
+# Questions about Supervision, Funding, and Admissions
+
+## Will I be your MSc/PhD supervisor at UBC?  
+
+### Prospective students:
+
+At UBC, all applications are reviewed by our admissions committee and students do not need to (or can they) find supervisors prior to admissions. Furthermore, all applications are considered for funding, and you do not need to separately apply for funding from a specific faculty member. 
+
+**All I can tell you prior to admission is that I currently have space and funding in my research group for MSc and PhD students. **
+
+### Current students: 
+
+I encourage you to reach out to me by email to schedule an informational meeting. If you are a PhD student, I also encourage you to do a [STAT 548](STAT548.qmd) paper with me. 
+
+## Will I be your MMath/PhD supervisor at Waterloo? 
+
+I have zero control over graduate admissions at Waterloo. 
+
+I am not a suitable MMath supervisor, as I am an adjunct member of the faculty. 
+
+I will consider co-supervising PhD students, but you will need to be co-supervised with a Waterloo Statistics faculty member with [ADDS](https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/faculty-and-staff) status. **Please do not contact me about the possibility of supervision unless a Waterloo faculty member recommends it.**
+
+

@@ -1,0 +1,31 @@
+---
+title: "Introduction"
+navbar: true
+---
+
+## What is clusterpval?
+
+`clusterpval` is an R package that tests the null hypothesis of no difference in means between two estimated clusters in a data set. 
+
+## How do I get clusterpval?
+
+In R, make sure that the devtools package is installed (`install.packages("devtools")`) and then run:
+```{r, eval=FALSE}
+devtools::install_github("lucylgao/clusterpval")
+```
+This command installs the latest version of the package from Github.
+
+## Why is clusterpval needed? 
+Double dipping - generating a hypothesis based on your data, and then testing the hypothesis on that same data - causes  classical hypothesis tests like the $t$-test, $Z$-test (a.k.a. the Wald test), and the Wilcoxon test not to control the Type I error rate. To illustrate, below lies a simulated data set containing no clusters. In this data set, estimating three clusters via hierarchical clustering, then testing for differences of means between the estimated clusters using the Wald test yields tiny p-values that are less than 0.0001! In other words, unless we correct for double dipping, the p-values will be invalid. 
+
+<center> <img src="img/inflate.png" width="75%"></center>
+
+This is where clusterpval comes in! It computes valid p-values for a difference in means by correcting for double dipping. This results in tests that properly control the Type I error rate. In the example above, clusterpval yields p-values of 0.98, 0.07, and 0.91 when testing for a difference in means between the three pairs of estimated clusters. This is sensible, because there are no true clusters in the data illustrated above.
+
+## Where can I learn more? 
+**Read about** the tests in the paper, [Selective Inference for Hierarchical Clustering](https://arxiv.org/abs/2012.02936), or read a summary of the technical machinery [here](technical.html).
+
+**Hear about** the tests by watching [this talk](https://www.youtube.com/watch?v=7h6B9c6yBSs).
+
+**Get started** with the tutorial for the case when clusters are estimated via hierarchical clustering [here](HierCluster.html), or the tutorial for the case when clusters are estimated via any user-specified clustering method (like $k$-means clustering) [here](AnyCluster.html). 
+

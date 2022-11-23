@@ -1,0 +1,38 @@
+---
+sidebar: false
+---
+
+# Teaching
+
+I am the instructor for **STAT 545** in 2022W1: a graduate course that teaches students how to write a clean and modern data analysis.  You can find out more about STAT 545 by visiting [the course website](https://stat545.stat.ubc.ca/). 
+
+I may have available **STAT 548** qualifying projects: see [this page](STAT548.qmd).
+
+# Letters of recommendation 
+
+## If I have not already agreed to write you a letter: 
+
+I frequently get requests for letters of recommendation. Unless we regularly interacted, it is very unlikely that I can provide a strong letter. (I also do not have the bandwidth to make up a lack of interaction in class after the course is over.) In these cases, if you were a top student in my class, then I can provide a "took a class with me letter", but I **strongly** recommend that you obtain a *strong* letter from someone else before you apply. 
+
+If you have read the above and you still want a letter of recommendation from me, then please email me at least **two months** before your first application deadline. 
+
+## If I have already agreed to write you a letter: 
+
+I  need **a single email** from you at least **two** weeks notice before the first deadline containing the following information: 
+
+- Basic logistical information: 
+
+  - What name do you prefer for the letter (so that I don't use Sue for Suzanne or vice-versa)? 
+  - Which pronouns (eg she/her, he/him, they/them) do you prefer?
+
+- A list of all positions to which you are applying along with deadlines for each. 
+
+- A recent CV or resume and an unofficial transcript. 
+
+- Answers to the following questions: 
+
+  - For what class(es) have I been your instructor for and how did you distinguish yourself in those class(es)? (Please note that if I have already agreed to write you a letter, then that means you have excellent test scores etc, and *that information will already be in your letter*.) Did we have any notable interactions I should highlight? 
+
+  -  What makes me *particularly* qualified to write a letter for you?
+  
+If it is 2-3 days before my letter is due and I have yet to upload it, then please send me a **reminder email**. These types of reminder emails are not a burden to me at all. I would feel terrible if your application were to be thrown out because I failed to upload, so let's work together to make sure that doesn't happen. 
