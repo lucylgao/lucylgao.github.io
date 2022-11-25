@@ -103,7 +103,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#choosing-a-paper" id="toc-choosing-a-paper" class="nav-link active" data-scroll-target="#choosing-a-paper">Choosing a paper</a></li>
   <li><a href="#general-expectations" id="toc-general-expectations" class="nav-link" data-scroll-target="#general-expectations">General Expectations</a></li>
   <li><a href="#project-and-report" id="toc-project-and-report" class="nav-link" data-scroll-target="#project-and-report">Project and Report</a></li>
-  <li><a href="#available-papers" id="toc-available-papers" class="nav-link" data-scroll-target="#available-papers">Available Papers</a></li>
+  <li><a href="#available-papers" id="toc-available-papers" class="nav-link" data-scroll-target="#available-papers">Available Papers</a>
+  <ul class="collapse">
+  <li><a href="#data-fission-an-alternative-to-sample-splitting" id="toc-data-fission-an-alternative-to-sample-splitting" class="nav-link" data-scroll-target="#data-fission-an-alternative-to-sample-splitting">1. Data fission: an alternative to sample splitting</a></li>
+  <li><a href="#valid-inference-after-outlier-removal" id="toc-valid-inference-after-outlier-removal" class="nav-link" data-scroll-target="#valid-inference-after-outlier-removal">2. Valid inference after outlier removal</a></li>
+  <li><a href="#fast-interpretable-greedy-tree-sums" id="toc-fast-interpretable-greedy-tree-sums" class="nav-link" data-scroll-target="#fast-interpretable-greedy-tree-sums">3. Fast interpretable greedy-tree sums</a></li>
+  <li><a href="#taken-post-prediction-inference" id="toc-taken-post-prediction-inference" class="nav-link" data-scroll-target="#taken-post-prediction-inference"><del>4. (TAKEN) Post-prediction inference</del></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -169,8 +175,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="available-papers" class="level2">
 <h2 class="anchored" data-anchor-id="available-papers">Available Papers</h2>
-<ol type="1">
-<li><p>Leiner, Duan, Wasserman, and Ramdas. <a href="https://arxiv.org/abs/2112.11079">Data fission: splitting a single data point</a>. <em>Note</em>: Since this paper is rather long, focus your attention on a single application. If you’re not sure which to pick, then I suggest the application in Section 4.</p>
+<section id="data-fission-an-alternative-to-sample-splitting" class="level3">
+<h3 class="anchored" data-anchor-id="data-fission-an-alternative-to-sample-splitting">1. Data fission: an alternative to sample splitting</h3>
+<p><strong>Paper</strong>: Leiner, Duan, Wasserman, and Ramdas. <a href="https://arxiv.org/abs/2112.11079">Data fission: splitting a single data point</a>.</p>
+<p><strong>Note</strong>: Since this paper is rather long, focus your attention on a single application. If you’re not sure which to pick, then I suggest the application in Section 4.</p>
 <p><strong>Project Idea 1:</strong> The main idea is to explore other applications of data fission.</p>
 <ul>
 <li><p>Describe a data analysis task (different from the applications explored in Sections 3-5) where you think that data fission would be useful.</p></li>
@@ -179,22 +187,34 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><strong>Project Idea 2:</strong> The main idea is to explore the robustness of data fission.</p>
 <ul>
-<li><p>For the single application you chose to focus on in your paper, evaluate the robustness of data fission against distributional assumptions via simulation. For example, what if we apply data fission assuming that the data are Gaussian, but the data are really Poisson? (You can safely ignore silly cases that would lead to you being unable to apply data fission at all - for example, you couldn’t apply the “Poisson” version of data-fission to Gaussian data because you can’t do the binomial sub-sampling on non-integer data.)</p></li>
+<li><p>For the single application you choose to focus on in your QP, evaluate the robustness of data fission against distributional assumptions via simulation. For example, what if we apply data fission assuming that the data are Gaussian, but the data are really Poisson? (You can safely ignore silly cases that would lead to you being unable to apply data fission at all - for example, you couldn’t apply the “Poisson” version of data-fission to Gaussian data because you can’t do the binomial sub-sampling on non-integer data.)</p></li>
 <li><p>Write a report about your simulation study. This should include a description of the simulation set-up, a description of the results including tables and figures as appropriate, and a summary of what you learned from the simulation study.</p></li>
-</ul></li>
-<li><p>Chen and Bien. <a href="https://par.nsf.gov/servlets/purl/10146539">Valid inference corrected for outlier removal</a>. <em>Note</em>: You do not need to fully understand Section 3.2. You can also focus your attention on the easiest case of testing an individual regression coefficient, though the paper is more general than that.</p>
-<p><strong>Project Idea:</strong> Linear regression analyses are far from the only analysis where data analysts remove outliers before performing inference. Pick two different analyses where it’s common to see analysts remove outliers before performing inference. Then, ask yourself: does this outlier removal step lead to to undesirable properties for the inference step? Explain why or why not. Support your claim with arguments based on statistical reasoning and/or results on simulated data.</p></li>
-<li><p>Tan, Singh, Nasseri, Agarwal, and Yu. <a href="https://arxiv.org/pdf/2201.11931.pdf">Fast Interpretable Greedy-Tree Sums (FIGS)</a></p>
-<p><strong>Project Idea:</strong> In the discussion, the authors say that “the class of FIGS models could be further extended to include linear terms”. Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, re-visit the diabetes data set and assess the generalization performance of a linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166.</p></li>
-<li><p><strong>TAKEN</strong> <del>Wang, McCormick, and Leek. <a href="https://www.pnas.org/doi/full/10.1073/pnas.2001238117">Methods for correcting inference based on outcomes predicted by machine learning</a></del></p>
-<p><del><strong>Project Idea:</strong> The authors focus on what goes wrong when you plug in machine learning predictions as <em>outcomes</em> in regression, and propose a way to fix it. What if you plug in machine learning predictions as the <em>covariates</em>?</del></p>
-<p><del>- Ask yourself: what (if anything) goes wrong? Support your claim with arguments based on statistical reasoning and/or results on simulated data. There may very well be related literature as well for you to incorporate here in areas like measurement error.</del></p>
-<p><del>- Do you think it would be straightforward to extend the authors’ method to the case where you plug in machine learning predictions as covariates rather than outcomes? If yes, give a high-level overview on how you would go about extending the method. If no, then explain why.</del></p></li>
-</ol>
+</ul>
+</section>
+<section id="valid-inference-after-outlier-removal" class="level3">
+<h3 class="anchored" data-anchor-id="valid-inference-after-outlier-removal">2. Valid inference after outlier removal</h3>
+<p><strong>Paper</strong>: Chen and Bien, <a href="https://par.nsf.gov/servlets/purl/10146539">Valid inference corrected for outlier removal</a>.</p>
+<p><strong>Note</strong>: You do not need to fully understand Section 3.2. You can also focus your attention on the easiest case of testing an individual regression coefficient, though the paper is more general than that.</p>
+<p><strong>Project Idea:</strong> Linear regression analyses are far from the only analysis where data analysts remove outliers before performing inference. Pick two different analyses where it’s common to see analysts remove outliers before performing inference. Then, ask yourself: does this outlier removal step lead to to undesirable properties for the inference step? Explain why or why not. Support your claim with arguments based on statistical reasoning and/or results on simulated data.</p>
+</section>
+<section id="fast-interpretable-greedy-tree-sums" class="level3">
+<h3 class="anchored" data-anchor-id="fast-interpretable-greedy-tree-sums">3. Fast interpretable greedy-tree sums</h3>
+<p><strong>Paper</strong>: Tan, Singh, Nasseri, Agarwal, and Yu. <a href="https://arxiv.org/pdf/2201.11931.pdf">Fast Interpretable Greedy-Tree Sums (FIGS)</a></p>
+<p><strong>Project Idea:</strong> In the discussion, the authors say that “the class of FIGS models could be further extended to include linear terms”. Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, re-visit the diabetes data set and assess the generalization performance of a linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166.</p>
+</section>
+<section id="taken-post-prediction-inference" class="level3">
+<h3 class="anchored" data-anchor-id="taken-post-prediction-inference"><del>4. (TAKEN) Post-prediction inference</del></h3>
+<p><strong>Paper</strong>: Wang, McCormick, and Leek. <a href="https://www.pnas.org/doi/full/10.1073/pnas.2001238117">Methods for correcting inference based on outcomes predicted by machine learning</a></p>
+<p><strong>Project Idea:</strong> The authors focus on what goes wrong when you plug in machine learning predictions as <em>outcomes</em> in regression, and propose a way to fix it. What if you plug in machine learning predictions as the <em>covariates</em>?</p>
+<ul>
+<li><p>Ask yourself: what (if anything) goes wrong? Support your claim with arguments based on statistical reasoning and/or results on simulated data. There may very well be related literature as well for you to incorporate here in areas like measurement error.</p></li>
+<li><p>Do you think it would be straightforward to extend the authors’ method to the case where you plug in machine learning predictions as covariates rather than outcomes? If yes, give a high-level overview on how you would go about extending the method. If no, then explain why.</p></li>
+</ul>
 <hr>
 <p>Attribution: Much of this document is copied (or very slightly adapted) from Daniel, Yongjin, Trevor, and Ben. Many thanks to them!</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
