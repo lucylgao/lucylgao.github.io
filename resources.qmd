@@ -8,15 +8,18 @@ I have come across a number of resources for helping students navigate graduate 
 
 (Caveat: these resources resonate with my own experiences in USA and Canada, but may not generalize to experiences in other countries.)
 
+
 # On interacting with faculty 
 
-- [Guide to Interacting With Faculty](https://shomir.net/teaching_faq.htm)
+- [Guide to Interacting With Faculty](https://shomir.net/teaching_faq.html)
   
 - [Adressing People in Academia](https://www.datapedagogy.com/posts/2020-07-28-address-people-academia/) 
 
 - [Emailing a Professor: How to Do It Well](https://shomir.net/emailing_a_professor.html)
 
 # On graduate school and research
+
+- [Advice on applying to Graduate School](https://dajmcdon.github.io/grad-school-pointers/)
 
 - [On Personal/Research Statements for Statistics/Biostatistics Graduate Program Applications](https://forum.thegradcafe.com/topic/44907-before-you-start-agonizing-over-your-personalresearch-statement-for-stat-or-biostat-read-this/)
 
