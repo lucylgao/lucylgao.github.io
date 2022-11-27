@@ -82,7 +82,17 @@ When you are ready to submit, provide me with:
 
 **Paper**: Tan, Singh, Nasseri, Agarwal, and Yu. [Fast Interpretable Greedy-Tree Sums (FIGS)](https://arxiv.org/pdf/2201.11931.pdf) 
 
-**Project Idea:** In the discussion, the authors say that "the class of FIGS models could be further extended to include linear terms". Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, re-visit the diabetes data set and assess the generalization performance of a linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into <= 128, 128 < PG < 166, and >= 166. 
+**Project Idea:** In the discussion, the authors say that "the class of FIGS models could be further extended to include linear terms". Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, re-visit the diabetes data set and assess the generalization performance of: 
+
+- A (generalized) linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into <= 128, 128 < PG < 166, and >= 166
+
+- A (generalized) linear model that includes BMI, a dummy variable for Age >= 30, and a trichotomized version of the plasma glucose variable into <= 128, 128 < PG < 166, and >= 166
+
+- A (generalized) linear model that includes a dummy variable for BMI >= 30, age, and a trichotomized version of the plasma glucose variable into <= 128, 128 < PG < 166, and >= 166
+
+- Other combinations of linear and piecewise constant terms as you see fit.  
+
+It might also be helpful to repeat this idea on other data sets used as examples in the paper. 
 
 ### ~~4. (TAKEN) Post-prediction inference~~
 

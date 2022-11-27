@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-11-25">
+<meta name="dcterms.date" content="2022-11-27">
 
 <title>Lucy L. Gao - STAT 548 PhD Qualifying Course Papers</title>
 <style>
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 25, 2022</p>
+      <p class="date">November 27, 2022</p>
     </div>
   </div>
   
@@ -200,7 +200,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="fast-interpretable-greedy-tree-sums" class="level3">
 <h3 class="anchored" data-anchor-id="fast-interpretable-greedy-tree-sums">3. Fast interpretable greedy-tree sums</h3>
 <p><strong>Paper</strong>: Tan, Singh, Nasseri, Agarwal, and Yu. <a href="https://arxiv.org/pdf/2201.11931.pdf">Fast Interpretable Greedy-Tree Sums (FIGS)</a></p>
-<p><strong>Project Idea:</strong> In the discussion, the authors say that “the class of FIGS models could be further extended to include linear terms”. Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, re-visit the diabetes data set and assess the generalization performance of a linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166.</p>
+<p><strong>Project Idea:</strong> In the discussion, the authors say that “the class of FIGS models could be further extended to include linear terms”. Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, re-visit the diabetes data set and assess the generalization performance of:</p>
+<ul>
+<li><p>A (generalized) linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166</p></li>
+<li><p>A (generalized) linear model that includes BMI, a dummy variable for Age &gt;= 30, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166</p></li>
+<li><p>A (generalized) linear model that includes a dummy variable for BMI &gt;= 30, age, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166</p></li>
+<li><p>Other combinations of linear and piecewise constant terms as you see fit.</p></li>
+</ul>
+<p>It might also be helpful to repeat this idea on other data sets used as examples in the paper.</p>
 </section>
 <section id="taken-post-prediction-inference" class="level3">
 <h3 class="anchored" data-anchor-id="taken-post-prediction-inference"><del>4. (TAKEN) Post-prediction inference</del></h3>
