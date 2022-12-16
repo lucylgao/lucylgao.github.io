@@ -50,7 +50,7 @@ When you are ready to submit, provide me with:
 
 ## Available Papers
 
-### 1. Data fission: an alternative to sample splitting
+### ~~1. (TAKEN) Data fission: an alternative to sample splitting~~
 
 **Paper**: Leiner, Duan, Wasserman, and Ramdas. [Data fission: splitting a single data point](https://arxiv.org/abs/2112.11079). 
 
