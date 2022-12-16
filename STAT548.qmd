@@ -76,13 +76,13 @@ When you are ready to submit, provide me with:
 
 **Note**: You do not need to fully understand Section 3.2. You can also focus your attention on the easiest case of testing an individual regression coefficient, though the paper is more general than that. 
 
-**Project Idea:** Linear regression analyses are far from the only analysis where data analysts remove outliers before performing inference. Pick two different analyses where it's common to see analysts remove outliers before performing inference. Then, ask yourself: does this outlier removal step lead to to undesirable properties for the inference step? Explain why or why not. Support your claim with arguments based on statistical reasoning and/or results on simulated data.
+**Project Idea:** Linear regression analyses are far from the only analysis where data analysts remove outliers before performing inference. Pick an analysis where you might see analysts remove outliers before performing inference. Then, ask yourself: does this outlier removal step lead to to undesirable properties for the inference step? Explain why or why not. Support your claim with arguments based on statistical reasoning and/or results on simulated data. 
 
 ### 3. Fast interpretable greedy-tree sums 
 
 **Paper**: Tan, Singh, Nasseri, Agarwal, and Yu. [Fast Interpretable Greedy-Tree Sums (FIGS)](https://arxiv.org/pdf/2201.11931.pdf) 
 
-**Project Idea:** In the discussion, the authors say that "the class of FIGS models could be further extended to include linear terms". Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, re-visit the diabetes data set and assess the generalization performance of: 
+**Project Idea:** In the discussion, the authors say that "the class of FIGS models could be further extended to include linear terms". Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, you may want to re-visit the diabetes data set and assess the generalization performance of: 
 
 - A (generalized) linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into <= 128, 128 < PG < 166, and >= 166
 
@@ -93,6 +93,8 @@ When you are ready to submit, provide me with:
 - Other combinations of linear and piecewise constant terms as you see fit.  
 
 It might also be helpful to repeat this idea on other data sets used as examples in the paper. 
+
+
 
 ### ~~4. (TAKEN) Post-prediction inference~~
 
