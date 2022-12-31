@@ -244,7 +244,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Bill length (mm)"</span>) <span class="sc">+</span> <span class="fu">xlab</span>(<span class="st">"Flipper length (mm)"</span>) <span class="sc">+</span> <span class="fu">coord_fixed</span>() <span class="sc">+</span> </span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>(<span class="at">base_size=</span><span class="dv">22</span>) <span class="sc">+</span> <span class="fu">ggtitle</span>(<span class="st">"Penguins"</span>) <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.position=</span><span class="st">"right"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="AnyCluster_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
+<p><img src="AnyCluster_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 <p>We will define a clustering function that takes a <span class="math inline">\(n \times p\)</span> numeric data matrix as input, and outputs integer assigments to clusters 1 through <span class="math inline">\(k\)</span>. The following snippet makes a function to run <span class="math inline">\(k\)</span>-means clustering with <span class="math inline">\(k = 3\)</span> and 50 random starts.</p>
@@ -275,7 +275,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Bill length (mm)"</span>) <span class="sc">+</span> <span class="fu">xlab</span>(<span class="st">"Flipper length (mm)"</span>) <span class="sc">+</span> <span class="fu">coord_fixed</span>() <span class="sc">+</span> </span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>(<span class="at">base_size=</span><span class="dv">22</span>) <span class="sc">+</span> <span class="fu">ggtitle</span>(<span class="st">"Penguins"</span>) <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.position=</span><span class="st">"right"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="AnyCluster_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="AnyCluster_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Observe that Cluster 1 contains Gentoo penguins, Cluster 2 contains mostly Chinstrap penguins, and Cluster 3 contains mostly Adelie penguins.</p>

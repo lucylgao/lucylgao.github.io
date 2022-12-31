@@ -246,7 +246,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Bill length (mm)"</span>) <span class="sc">+</span> <span class="fu">xlab</span>(<span class="st">"Flipper length (mm)"</span>) <span class="sc">+</span> <span class="fu">coord_fixed</span>() <span class="sc">+</span> </span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>(<span class="at">base_size=</span><span class="dv">22</span>) <span class="sc">+</span> <span class="fu">ggtitle</span>(<span class="st">"Penguins"</span>) <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.position=</span><span class="st">"right"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="HierCluster_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
+<p><img src="HierCluster_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 <p>Let’s cluster the data using average linkage hierarchical clustering with squared Euclidean distance. We plot the dendrogram, and cut the dendrogram to get six clusters.</p>
@@ -256,7 +256,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">as.dendrogram</span>(hcl), <span class="at">leaflab=</span><span class="st">"none"</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span>(hcl<span class="sc">$</span>height[<span class="fu">nrow</span>(X) <span class="sc">-</span> <span class="dv">6</span>] <span class="sc">+</span> <span class="dv">50</span>), <span class="at">lty=</span><span class="st">"dashed"</span>, <span class="at">col=</span><span class="st">"darkgrey"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="HierCluster_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="1152"></p>
+<p><img src="HierCluster_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="1152"></p>
 </div>
 </div>
 <p>Now let’s pick pairs of clusters to test. We “name” the six clusters according to the output of the <code>cutree</code> function, which is <strong>not</strong> always the same as left-to-right ordering in the dendrogram. To figure out what each cluster in the dendrogram is called, we can use the <code>rect_hier_clusters</code> function to put coloured rectangles around the six clusters.</p>
@@ -265,7 +265,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span>(hcl<span class="sc">$</span>height[<span class="fu">nrow</span>(X) <span class="sc">-</span> <span class="dv">6</span>] <span class="sc">+</span> <span class="dv">50</span>), <span class="at">lty=</span><span class="st">"dashed"</span>, <span class="at">col=</span><span class="st">"darkgrey"</span>)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">rect_hier_clusters</span>(hcl, <span class="at">k=</span><span class="dv">6</span>, <span class="at">which=</span><span class="dv">1</span><span class="sc">:</span><span class="dv">6</span>, <span class="at">border=</span>RColorBrewer<span class="sc">::</span><span class="fu">brewer.pal</span>(<span class="dv">6</span>, <span class="st">"Dark2"</span>)[<span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">1</span>, <span class="dv">5</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">2</span>)])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="HierCluster_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="1152"></p>
+<p><img src="HierCluster_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="1152"></p>
 </div>
 </div>
 <p>So visually, if we would like to test for a difference in means between the blue and green clusters, we would set <code>k1</code> to be 4 and <code>k2</code> to be 5. (You can see this from the order of the colors in the “border” argument above.)</p>
@@ -284,7 +284,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Bill length (mm)"</span>) <span class="sc">+</span> <span class="fu">xlab</span>(<span class="st">"Flipper length (mm)"</span>) <span class="sc">+</span> <span class="fu">coord_fixed</span>() <span class="sc">+</span> </span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>(<span class="at">base_size=</span><span class="dv">22</span>) <span class="sc">+</span> <span class="fu">ggtitle</span>(<span class="st">"Penguins"</span>) <span class="sc">+</span> <span class="fu">theme</span>(<span class="at">legend.position=</span><span class="st">"right"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="HierCluster_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<p><img src="HierCluster_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>You can see that Clusters 1 and 2 both mostly contain Adelie penguins, Cluster 4 mostly contains Gentoo Penguins, and Cluster 5 mostly contains Chinstrap penguins. Clusters 3 and 6 contain one penguin each.</p>
@@ -330,7 +330,7 @@ Object of class Intervals
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(<span class="at">h=</span>(hcl<span class="sc">$</span>height[<span class="fu">nrow</span>(X) <span class="sc">-</span> <span class="dv">3</span>] <span class="sc">+</span> <span class="dv">200</span>), <span class="at">lty=</span><span class="st">"dashed"</span>, <span class="at">col=</span><span class="st">"darkgrey"</span>)</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="fu">rect_hier_clusters</span>(hcl, <span class="at">k=</span><span class="dv">3</span>, <span class="at">which=</span><span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">border=</span><span class="fu">c</span>(<span class="st">"orange"</span>, <span class="st">"blue"</span>, <span class="st">"green"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="HierCluster_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="1152"></p>
+<p><img src="HierCluster_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="1152"></p>
 </div>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(dat<span class="sc">$</span>species, <span class="fu">cutree</span>(hcl, <span class="dv">3</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
