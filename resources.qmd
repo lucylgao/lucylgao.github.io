@@ -23,7 +23,7 @@ I have come across a number of resources for helping students navigate graduate 
 
 - [On Personal/Research Statements for Statistics/Biostatistics Graduate Program Applications](https://forum.thegradcafe.com/topic/44907-before-you-start-agonizing-over-your-personalresearch-statement-for-stat-or-biostat-read-this/)
 
-- [Maintaining Work-Life Balance in a Stat-ML PhD](http://stat.cmu.edu/~aramdas/checklists/aadi-balance-checklist.pd)
+- [Maintaining Work-Life Balance in a Stat-ML PhD](http://stat.cmu.edu/~aramdas/checklists/aadi-balance-checklist.pdf)
 
 # On the academic job market 
 

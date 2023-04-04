@@ -23,13 +23,19 @@ In the following, \* represents alphabetical author ordering.
 
 ## Pre-prints 
 
-**Lucy L. Gao**\*, Jane J. Ye\*, Shangzhi Zeng\*, Julie Zhou\* (2022+) Necessary and sufficient conditions for multiple objective optimal regression designs. 
+
+Ameer Dharamshi, Anna Neufeld, Keshav Motwani, **Lucy L. Gao**, Daniela Witten, and Jacob Bien. (2023+) Generalized data thinning using sufficient statistics. [[pdf](https://arxiv.org/abs/2303.12931)]
+
+
+Anna Neufeld, Ameer Dharamshi, **Lucy L. Gao**, and Daniela Witten (2023+) Data thinning for convolution-closed distributions. [[pdf](https://arxiv.org/abs/2301.07276)] [[software](https://anna-neufeld.github.io/datathin/index.html)]
+
+**Lucy L. Gao**\*, Jane J. Ye\*, Shangzhi Zeng\*, Julie Zhou\* (2023+) Necessary and sufficient conditions for multiple objective optimal regression designs. 
 
 ## Accepted
 
-Anna Neufeld, **Lucy L. Gao**, Joshua Popp, Alexis Battle, and Daniela Witten (2022+) Inference after latent variable estimation for single-cell RNA-sequencing data. To appear in *Biostatistics*. [[pdf](https://arxiv.org/abs/2207.00554)] [[software](https://anna-neufeld.github.io/countsplit/)]
+Anna Neufeld, **Lucy L. Gao**, Joshua Popp, Alexis Battle, and Daniela Witten (2023+) Inference after latent variable estimation for single-cell RNA-sequencing data. To appear in *Biostatistics*. [[pdf](https://arxiv.org/abs/2207.00554)] [[software](https://anna-neufeld.github.io/countsplit/)]
 
-**Lucy L. Gao**, Jacob Bien, and Daniela Witten (2022+) Selective inference for hierarchical clustering. To appear in *Journal of the American Statistical Association*. [[pdf](https://arxiv.org/abs/2012.02936)] [[software](clusterpval)]
+**Lucy L. Gao**, Jacob Bien, and Daniela Witten (2023+) Selective inference for hierarchical clustering. To appear in *Journal of the American Statistical Association*. [[pdf](https://arxiv.org/abs/2012.02936)] [[software](clusterpval)]
 
 ## 2022 
 
@@ -49,6 +55,9 @@ Pengqi Liu, **Lucy L. Gao** and Julie Zhou (2022). R-optimal designs for multi-r
 
 ## 2015-2019
 
-**Lucy L. Gao**\* and Julie Zhou\* (2017) D-optimal designs based on the second-order least squares estimator. *Statistical Papers*, 58(2), 77-94. [[pdf](https://dspace.library.uvic.ca:8443/handle/1828/7383)]
+Evelyn Hsu, Michele Shaffer, **Lucy L. Gao**, Christopher Sonnenday, Michael Volk, John Bucuvalas, and Jennifer Lai (2017).
+Analysis of liver offers to pediatric candidates on the transplant wait list. *Gastroenterology*, 153 (4), 998-995. 
+
+**Lucy L. Gao**\* and Julie Zhou\* (2017). D-optimal designs based on the second-order least squares estimator. *Statistical Papers*, 58(2), 77-94. [[pdf](https://dspace.library.uvic.ca:8443/handle/1828/7383)]
 
 **Lucy L. Gao** and Julie Zhou (2014) New optimal design criteria for regression models with asymmetric errors. *Journal of Statistical Planning and Inference*, 149: 140-151.

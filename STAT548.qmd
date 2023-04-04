@@ -70,7 +70,7 @@ When you are ready to submit, provide me with:
 
   -   Write a report about your simulation study. This should include a description of the simulation set-up, a description of the results including tables and figures as appropriate, and a summary of what you learned from the simulation study.
 
-### 2. Valid inference after outlier removal
+### ~~2.  (TAKEN) Valid inference after outlier removal~~
 
 **Paper**: Chen and Bien, [Valid inference corrected for outlier removal](https://par.nsf.gov/servlets/purl/10146539). 
 
