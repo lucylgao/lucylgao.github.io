@@ -3,35 +3,27 @@ title: "Research"
 sidebar: false
 ---
 
-# Research Themes
+## Current research profile  
 
-## 1. Selective Inference 
+The core of my research program investigates model validation and inference in the context of statistical machine learning. As scientists fit increasingly complex models to their data, there is an ever-growing need for methods that quantify our uncertainty in the quality of these models, and for methods that can formally test  results suggested by these models. My work seeks to fill this gap, especially within the context of unsupervised learning, where existing methods for validation and inference are limited compared to the supervised learning setting. My research program has expanded our statistical toolkit for using a single data set to  fit a supervised or unsupervised learning model and to (1) test hypotheses suggested by that fitted model, (2) assess the stability of that fitted model, or (3) accurately estimate the prediction error of that fitted model. The methods developed in the course of my research program are relevant to many application domains, and have particular impact in the field of single-cell genomics, where the output of unsupervised learning models are routinely used as surrogates for unobserved aspects of cell states. 
 
-Roughly speaking, this covers severe complications that can arise when you use the data that you're analyzing to decide on the details of your data analysis. For example, a researcher might explore their data using statistical machine learning in order to generate interesting hypotheses, and then test those hypotheses using the same data. Doing so grossly invalidates the properties of classical statistical hypothesis tests.
+I have secondary interests in developing theory and methodology in the area of optimal experiment design and the selection of hyperparameters for statistical machine learning algorithms. These diverse areas are unified by my interest in adapting key ideas from the mathematical optimization community to statistical problems. 
 
-## 2. Inference × Unsupervised Learning
-
-Unsupervised machine learning learns relationships and structures from our data without the help of outputs: this includes clustering and dimension reduction. These methods are used to explore and understand our data, often with the ultimate goal of generating interesting insights for followup investigation. I'm interested in finding ways to test hypotheses about the structures and relationships we learn from our data, often within the framework of latent variable models.
-
-## 3. Statistics × Optimization 
-
-Optimization is used for everything in statistics - we use it to estimate, to predict, to infer, and to design. I enjoy learning from and working closely with colleagues in optimization to apply optimization theory and algorithms for statistical tasks. This interest has served me especially well in the area of optimal experiment design, where we think about how we should choose our experimental inputs in order to get as much information out of our experiment as possible. It also comes up in the context of some statistical machine learning problems I have worked on.
-
-# Publications
+## Publications
 
 In the following, \* represents alphabetical author ordering.
 
 ## Pre-prints 
-
 
 Ameer Dharamshi, Anna Neufeld, Keshav Motwani, **Lucy L. Gao**, Daniela Witten, and Jacob Bien. (2023+) Generalized data thinning using sufficient statistics. [[pdf](https://arxiv.org/abs/2303.12931)]
 
 
 Anna Neufeld, Ameer Dharamshi, **Lucy L. Gao**, and Daniela Witten (2023+) Data thinning for convolution-closed distributions. [[pdf](https://arxiv.org/abs/2301.07276)] [[software](https://anna-neufeld.github.io/datathin/index.html)]
 
-**Lucy L. Gao**\*, Jane J. Ye\*, Shangzhi Zeng\*, Julie Zhou\* (2023+) Necessary and sufficient conditions for multiple objective optimal regression designs. 
 
 ## Accepted
+
+**Lucy L. Gao**\*, Jane J. Ye\*, Shangzhi Zeng\*, Julie Zhou\* (2023+) Necessary and sufficient conditions for multiple objective optimal regression designs. To appear in *Statistica Sinica*.  [[pdf](https://arxiv.org/abs/2303.04746)][[code](https://github.com/lucylgao/multi-objective-paper-code-2022)]
 
 Anna Neufeld, **Lucy L. Gao**, Joshua Popp, Alexis Battle, and Daniela Witten (2023+) Inference after latent variable estimation for single-cell RNA-sequencing data. To appear in *Biostatistics*. [[pdf](https://arxiv.org/abs/2207.00554)] [[software](https://anna-neufeld.github.io/countsplit/)]
 

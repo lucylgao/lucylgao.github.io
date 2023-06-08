@@ -33,12 +33,13 @@ about:
 ## About Me 
 I am an Assistant Professor of [Statistics at the University of British Columbia](https://www.stat.ubc.ca/). My PhD in [Biostatistics from the University of Washington](https://www.biostat.washington.edu/) was supervised by [Daniela Witten](https://www.danielawitten.com/). 
 
-My research involves developing:
+I am broadly interested in developing: 
 
-1. Statistical methods to answer scientific questions using complex data sets in the biomedical sciences using statistical machine learning and selective inference.
+1. Statistical methods at the intersection of biostatistics and statistical learning, and 
 
-2. Statistical theory and methodology for the optimal design of research studies, often with collaborators in mathematical optimization.
+2. Statistical theory and methodology for the optimal design of research studies.
 
+I am open to collaborations with domain scientists; historically, I have been primarily motivated by problems in biology, public health, and medicine, but I am always enthusiastic about discussing interesting scientific problems in other areas! 
 
 
 ## Address and Phone 

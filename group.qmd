@@ -4,6 +4,10 @@ sidebar: false
 
 # Research Group 
 
+## MSc students
+
+**Thu Nguyen**, UBC MSc | 2023-current
+
 ## PhD students
 
 **Andrew Kenig**, Waterloo Statistics PhD |  2021-current 
