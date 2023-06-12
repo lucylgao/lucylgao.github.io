@@ -15,6 +15,8 @@ In the following, \* represents alphabetical author ordering.
 
 ## Pre-prints 
 
+Abigail Keller, **Lucy L. Gao**, Daniela Witten, and Maitreya J. Dunham (2023+). Condition-dependent fitness effects of large synthetic chromosome amplifications. [[pdf](https://www.biorxiv.org/content/10.1101/2023.06.08.544269v1)]
+
 Ameer Dharamshi, Anna Neufeld, Keshav Motwani, **Lucy L. Gao**, Daniela Witten, and Jacob Bien. (2023+) Generalized data thinning using sufficient statistics. [[pdf](https://arxiv.org/abs/2303.12931)]
 
 
