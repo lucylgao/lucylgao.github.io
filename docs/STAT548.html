@@ -2,11 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-04-13">
 
 <title>Lucy L. Gao - STAT 548 PhD Qualifying Course Papers</title>
 <style>
@@ -18,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -46,7 +45,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -71,22 +71,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">
+    <a class="nav-link" href="./research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./group.html">
+    <a class="nav-link" href="./group.html" rel="" target="">
  <span class="menu-text">Research Group</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">
+    <a class="nav-link" href="./resources.html" rel="" target="">
  <span class="menu-text">Resources for Students</span></a>
   </li>  
 </ul>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -100,15 +102,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#choosing-a-paper" id="toc-choosing-a-paper" class="nav-link active" data-scroll-target="#choosing-a-paper">Choosing a paper</a></li>
-  <li><a href="#general-expectations" id="toc-general-expectations" class="nav-link" data-scroll-target="#general-expectations">General Expectations</a></li>
-  <li><a href="#project-and-report" id="toc-project-and-report" class="nav-link" data-scroll-target="#project-and-report">Project and Report</a></li>
-  <li><a href="#available-papers" id="toc-available-papers" class="nav-link" data-scroll-target="#available-papers">Available Papers</a>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link active" data-scroll-target="#getting-started">Getting Started</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a>
   <ul class="collapse">
-  <li><a href="#taken-data-fission-an-alternative-to-sample-splitting" id="toc-taken-data-fission-an-alternative-to-sample-splitting" class="nav-link" data-scroll-target="#taken-data-fission-an-alternative-to-sample-splitting"><del>1. (TAKEN) Data fission: an alternative to sample splitting</del></a></li>
-  <li><a href="#taken-valid-inference-after-outlier-removal" id="toc-taken-valid-inference-after-outlier-removal" class="nav-link" data-scroll-target="#taken-valid-inference-after-outlier-removal"><del>2. (TAKEN) Valid inference after outlier removal</del></a></li>
-  <li><a href="#taken-fast-interpretable-greedy-tree-sums" id="toc-taken-fast-interpretable-greedy-tree-sums" class="nav-link" data-scroll-target="#taken-fast-interpretable-greedy-tree-sums"><del>3. (TAKEN) Fast interpretable greedy-tree sums</del></a></li>
-  <li><a href="#taken-post-prediction-inference" id="toc-taken-post-prediction-inference" class="nav-link" data-scroll-target="#taken-post-prediction-inference"><del>4. (TAKEN) Post-prediction inference</del></a></li>
+  <li><a href="#report" id="toc-report" class="nav-link" data-scroll-target="#report">Report</a></li>
+  <li><a href="#final-checklist" id="toc-final-checklist" class="nav-link" data-scroll-target="#final-checklist">Final Checklist</a></li>
+  </ul></li>
+  <li><a href="#paper-options" id="toc-paper-options" class="nav-link" data-scroll-target="#paper-options">Paper Options</a>
+  <ul class="collapse">
+  <li><a href="#bourgon-gentleman-and-huber-2010.-independent-filtering-increases-detection-power-for-high-throughput-experiments." id="toc-bourgon-gentleman-and-huber-2010.-independent-filtering-increases-detection-power-for-high-throughput-experiments." class="nav-link" data-scroll-target="#bourgon-gentleman-and-huber-2010.-independent-filtering-increases-detection-power-for-high-throughput-experiments.">1. Bourgon, Gentleman, and Huber (2010). Independent filtering increases detection power for high-throughput experiments.</a></li>
+  <li><a href="#christian-hennig-2007.-cluster-wise-assessment-of-cluster-stability." id="toc-christian-hennig-2007.-cluster-wise-assessment-of-cluster-stability." class="nav-link" data-scroll-target="#christian-hennig-2007.-cluster-wise-assessment-of-cluster-stability.">2. Christian Hennig (2007). Cluster-wise assessment of cluster stability.</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -126,12 +129,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">April 13, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -139,86 +136,59 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="choosing-a-paper" class="level2">
-<h2 class="anchored" data-anchor-id="choosing-a-paper">Choosing a paper</h2>
-<p>At the end of this document is a list of papers that I am interested in supervising as Qualifying Papers (QPs). I am happy to discuss any other paper that you are interested in and think might be appropriate.</p>
-<p>I am interested in almost all problems involving answering scientific questions using complex data sets in biomedical science. My research often involves statistical learning (especially unsupervised learning) and selective inference. Recently, I have been especially interested in applications in single-cell sequencing.</p>
-</section>
-<section id="general-expectations" class="level2">
-<h2 class="anchored" data-anchor-id="general-expectations">General Expectations</h2>
-<p>If you are interested in doing a QP with me, the first step is to email me to schedule a one-on-one meeting. Please use the words “Qualifying Paper” in the subject line of your email. At our first meeting, please be prepared to discuss:</p>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<p>I am a biostatistician with a strong background in general statistical methodology, especially in the area of statistical machine learning. You can learn more specifics about my research from the Research page on my website or from my Twitter (link on the bottom of this page).</p>
+<p>If you are interested in doing a qualifying paper (QP) with me, then please email me to schedule a one-on-one meeting. At our first meeting, please be prepared to discuss:</p>
 <ul>
 <li><p>Your background.</p></li>
 <li><p>Your long-term research interests (it’s okay if these are not yet well-defined).</p></li>
 <li><p>Why you are interested in the particular paper/project.</p></li>
 <li><p>When you will submit your report (typically about four-six weeks after we meet).</p></li>
-<li><p>The details of the QP project and report.</p></li>
-<li><p>Any concerns or questions you may have.</p></li>
 </ul>
-<p>In the process of working on the QP project and report, you may find yourself needing guidance or clarification. We can meet again as many times as needed before the report due date for this purpose.</p>
+<p>To ensure a productive meeting, please do a preliminary review of the paper before we meet.</p>
 </section>
-<section id="project-and-report" class="level2">
-<h2 class="anchored" data-anchor-id="project-and-report">Project and Report</h2>
-<p>Structure your report as follows:</p>
-<ul>
-<li><p><strong>Problem definition</strong> (1 page): Extract mathematical/statistical problems from the paper and organize them.</p></li>
-<li><p><strong>Significance</strong> (1-2 paragraphs): Why is this an interesting and/or important problem? What can be learned by studying this problem? Why is it exciting for you? Author contribution: How did the author(s) find the solution? What was a novel contribution beyond traditional approaches?</p></li>
-<li><p><strong>Limitations/challenges</strong> (1-2 paragraphs): What are the assumptions? Are they realistic? What are the technical limitations that the authors acknowledge or not?</p></li>
-<li><p><strong>Paper-specific project</strong> (3 pages max): I have paired each available QP with specific prompts designed to help inspire related research projects. Details vary and are discussed below. If there are multiple prompts, then pick one. You can also come up with your own prompt - seemingly unrelated ideas inspired by the original QP are fine here - but make sure I approve of the prompt before you start working on it. The aim of this section is to get you thinking creatively about research, and to begin developing the skills necessary for writing research proposals.</p></li>
-<li><p><strong>Discussion</strong> (1 page): Briefly discuss what you have learned and what you would achieve if you were to develop your paper-specific project into a full paper.</p></li>
-</ul>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<section id="report" class="level3">
+<h3 class="anchored" data-anchor-id="report">Report</h3>
+<p>The final report for your QP will be in pdf form and typeset in LaTeX with 1.5 spacing and 12 point font. It will have three major components:</p>
+<ol type="1">
+<li>An extended review of the paper. (Max 4 pages)</li>
+<li>A mini-research project addressing a question you might have after reading the paper. (Max 4 pages)</li>
+<li>A discussion of an idea for a research project you have after reading the paper. (Max 2 pages)</li>
+</ol>
+<p>In the first part, you should write a high-level review of the ideas in the paper, followed by a thoughtful evaluation of the significance and limitations of the work. Conclude with at least two questions you have for the authors. This structure matches that of reviews of papers submitted to a journal, and will help you practice thinking critically about papers you read.</p>
+<p>In the second part, you may either choose a question I have provided below, or propose a new question. If you propose a new question, think very carefully about scope – you want to be able to provide at least a somewhat satisfying answer to the question within your timeline! In either case, I expect the content of this part of your report to contain some arguments based on mathematical/statistical understanding, and some arguments based on simulation results.</p>
+<p>In the third part, you will demonstrate your ability to think creatively and savvily about research. First, introduce your research idea; to help you brainstorm, common “classes” of research projects include generalizations, extensions, or novel applications of the paper. Then, explain how impactful this research would be if it succeeded. Finally, explain how feasible the idea is. This content matches what you would find in any project proposal, whether it be at a company or in academia.</p>
+</section>
+<section id="final-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="final-checklist">Final Checklist</h3>
 <p>When you are ready to submit, provide me with:</p>
 <ul>
-<li><p>The report in LaTeX (everything needed to generate the pdf report plus the pdf report itself).</p></li>
+<li><p>The report (everything needed to generate the pdf report plus the pdf report itself).</p></li>
 <li><p>All code needed to reproduce all experimental/numerical results in the report. All code should have informative file names (e.g.&nbsp;Figure1.R) and be clearly commented and documented. Code can be in any language you wish, though I strongly prefer R.</p></li>
 </ul>
 </section>
-<section id="available-papers" class="level2">
-<h2 class="anchored" data-anchor-id="available-papers">Available Papers</h2>
-<section id="taken-data-fission-an-alternative-to-sample-splitting" class="level3">
-<h3 class="anchored" data-anchor-id="taken-data-fission-an-alternative-to-sample-splitting"><del>1. (TAKEN) Data fission: an alternative to sample splitting</del></h3>
-<p><strong>Paper</strong>: Leiner, Duan, Wasserman, and Ramdas. <a href="https://arxiv.org/abs/2112.11079">Data fission: splitting a single data point</a>.</p>
-<p><strong>Note</strong>: Since this paper is rather long, focus your attention on a single application. If you’re not sure which to pick, then I suggest the application in Section 4.</p>
-<p><strong>Project Idea 1:</strong> The main idea is to explore other applications of data fission.</p>
+</section>
+<section id="paper-options" class="level2">
+<h2 class="anchored" data-anchor-id="paper-options">Paper Options</h2>
+<p>The papers listed below are relevant to the type of PhD dissertation I am most interested in supervising right now: methodological work on validation and inference for statistical machine learning models, especially of the unsupervised sort. That being said, I am broadly interested in applications/methodology/theory in biostatistics and applications/methodology in statistical learning. I am happy to open a dialogue with you if there is a paper that fits those characteristics you are particularly interested in working on with me.</p>
+<section id="bourgon-gentleman-and-huber-2010.-independent-filtering-increases-detection-power-for-high-throughput-experiments." class="level3">
+<h3 class="anchored" data-anchor-id="bourgon-gentleman-and-huber-2010.-independent-filtering-increases-detection-power-for-high-throughput-experiments.">1. Bourgon, Gentleman, and Huber (2010). <a href="https://www.pnas.org/doi/10.1073/pnas.0914005107">Independent filtering increases detection power for high-throughput experiments</a>.</h3>
 <ul>
-<li><p>Describe a data analysis task (different from the applications explored in Sections 3-5) where you think that data fission would be useful.</p></li>
-<li><p>Make sure to discuss <em>why</em> you think data fission would be useful. What might go wrong if you didn’t use data fission? It will likely be helpful to conduct some simple simulation studies to demonstrate what problems occur if you don’t use data fission in your setting.</p></li>
-<li><p>Describe how you would go about applying data fission to your chosen setting.</p></li>
-</ul>
-<p><strong>Project Idea 2:</strong> The main idea is to explore the robustness of data fission.</p>
-<ul>
-<li><p>For the single application you choose to focus on in your QP, evaluate the robustness of data fission against distributional assumptions via simulation. For example, what if we apply data fission assuming that the data are Gaussian, but the data are really Poisson? (You can safely ignore silly cases that would lead to you being unable to apply data fission at all - for example, you couldn’t apply the “Poisson” version of data-fission to Gaussian data because you can’t do the binomial sub-sampling on non-integer data.)</p></li>
-<li><p>Write a report about your simulation study. This should include a description of the simulation set-up, a description of the results including tables and figures as appropriate, and a summary of what you learned from the simulation study.</p></li>
+<li><strong>Topics</strong>: Genomics, multiple testing, selective inference</li>
+<li><strong>Question Idea</strong>: Do mean and variance filters satisfy the marginal independence criterion when the data are non-Gaussian?</li>
 </ul>
 </section>
-<section id="taken-valid-inference-after-outlier-removal" class="level3">
-<h3 class="anchored" data-anchor-id="taken-valid-inference-after-outlier-removal"><del>2. (TAKEN) Valid inference after outlier removal</del></h3>
-<p><strong>Paper</strong>: Chen and Bien, <a href="https://par.nsf.gov/servlets/purl/10146539">Valid inference corrected for outlier removal</a>.</p>
-<p><strong>Note</strong>: You do not need to fully understand Section 3.2. You can also focus your attention on the easiest case of testing an individual regression coefficient, though the paper is more general than that.</p>
-<p><strong>Project Idea:</strong> Linear regression analyses are far from the only analysis where data analysts remove outliers before performing inference. Pick an analysis where you might see analysts remove outliers before performing inference. Then, ask yourself: does this outlier removal step lead to to undesirable properties for the inference step? Explain why or why not. Support your claim with arguments based on statistical reasoning and/or results on simulated data.</p>
-</section>
-<section id="taken-fast-interpretable-greedy-tree-sums" class="level3">
-<h3 class="anchored" data-anchor-id="taken-fast-interpretable-greedy-tree-sums"><del>3. (TAKEN) Fast interpretable greedy-tree sums</del></h3>
-<p><strong>Paper</strong>: Tan, Singh, Nasseri, Agarwal, and Yu. <a href="https://arxiv.org/pdf/2201.11931.pdf">Fast Interpretable Greedy-Tree Sums (FIGS)</a></p>
-<p><strong>Project Idea:</strong> In the discussion, the authors say that “the class of FIGS models could be further extended to include linear terms”. Discuss the potential benefits and drawbacks of this extension. To help inform the potential benefits part of this discussion, you may want to re-visit the diabetes data set and assess the generalization performance of:</p>
+<section id="christian-hennig-2007.-cluster-wise-assessment-of-cluster-stability." class="level3">
+<h3 class="anchored" data-anchor-id="christian-hennig-2007.-cluster-wise-assessment-of-cluster-stability.">2. Christian Hennig (2007). <a href="http://www.homepages.ucl.ac.uk/~ucakche/papers/clusta.pdf">Cluster-wise assessment of cluster stability</a>.</h3>
 <ul>
-<li><p>A (generalized) linear model that includes BMI, age, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166</p></li>
-<li><p>A (generalized) linear model that includes BMI, a dummy variable for Age &gt;= 30, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166</p></li>
-<li><p>A (generalized) linear model that includes a dummy variable for BMI &gt;= 30, age, and a trichotomized version of the plasma glucose variable into &lt;= 128, 128 &lt; PG &lt; 166, and &gt;= 166</p></li>
-<li><p>Other combinations of linear and piecewise constant terms as you see fit.</p></li>
-</ul>
-<p>It might also be helpful to repeat this idea on other data sets used as examples in the paper.</p>
-</section>
-<section id="taken-post-prediction-inference" class="level3">
-<h3 class="anchored" data-anchor-id="taken-post-prediction-inference"><del>4. (TAKEN) Post-prediction inference</del></h3>
-<p><strong>Paper</strong>: Wang, McCormick, and Leek. <a href="https://www.pnas.org/doi/full/10.1073/pnas.2001238117">Methods for correcting inference based on outcomes predicted by machine learning</a></p>
-<p><strong>Project Idea:</strong> The authors focus on what goes wrong when you plug in machine learning predictions as <em>outcomes</em> in regression, and propose a way to fix it. What if you plug in machine learning predictions as the <em>covariates</em>?</p>
-<ul>
-<li><p>Ask yourself: what (if anything) goes wrong? Support your claim with arguments based on statistical reasoning and/or results on simulated data. There may very well be related literature as well for you to incorporate here in areas like measurement error.</p></li>
-<li><p>Do you think it would be straightforward to extend the authors’ method to the case where you plug in machine learning predictions as covariates rather than outcomes? If yes, give a high-level overview on how you would go about extending the method. If no, then explain why.</p></li>
+<li><strong>Topics</strong>: Unsupervised learning, model validation</li>
+<li><strong>Question Idea</strong>: Is the bootstrapped distribution of maximum Jaccard coefficient a good approximation to the distribution it attempts to approximate? (See page 6).</li>
 </ul>
 <hr>
-<p>Attribution: Much of this document is copied (or very slightly adapted) from Daniel, Yongjin, Trevor, and Ben. Many thanks to them!</p>
+<p>Attribution: Inspired by many colleagues, including Daniel, Yongjin, Trevor, Geoff, and Ben.</p>
 
 
 </section>
@@ -252,9 +222,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -319,6 +303,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -361,7 +431,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><a href="https://twitter.com/lucylgao"><i class="bi bi-twitter"></i></a> <a href="https://github.com/lucylgao"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/lucy-gao-2120b974/"><i class="bi bi-linkedin"></i></a> <a href="mailto:lucy.gao@stat.ubc.ca"><i class="bi bi-envelope"></i></a></div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center"><a href="https://twitter.com/lucylgao"><i class="bi bi-twitter"></i></a> <a href="https://github.com/lucylgao"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/lucy-gao-2120b974/"><i class="bi bi-linkedin"></i></a> <a href="mailto:lucy.gao@stat.ubc.ca"><i class="bi bi-envelope"></i></a></div>
     <div class="nav-footer-right">© 2022, Lucy L. Gao</div>
   </div>
 </footer>
