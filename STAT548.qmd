@@ -52,7 +52,7 @@ The papers listed below are relevant to the type of PhD dissertation I am most i
 -   **Topics**: Genomics, multiple testing, selective inference 
 - **Question Idea**: Do mean and variance filters satisfy the marginal independence criterion when the data are non-Gaussian?
 
-2. Christian Hennig (2007). [Cluster-wise assessment of cluster stability](http://www.homepages.ucl.ac.uk/~ucakche/papers/clusta.pdf).
+2. **(TAKEN)** ~~Christian Hennig (2007). [Cluster-wise assessment of cluster stability](http://www.homepages.ucl.ac.uk/~ucakche/papers/clusta.pdf).~~ 
 
 -   **Topics**: Unsupervised learning, model validation
 -   **Question Idea**: Is the bootstrapped distribution of maximum Jaccard coefficient a good approximation to the distribution it attempts to approximate? (See page 6).
