@@ -27,7 +27,7 @@ about:
       href: mailto::lucy.gao@stat.ubc.ca
     - icon: file-earmark
       text: CV 
-      href: https://github.com/lucylgao/lucylgao.github.io/blob/f6426f5f0a00ae37d8b225e8dda6fd0bff7e2f11/assets/CV.pdf    
+      href: https://github.com/lucylgao/lucylgao.github.io/blob/quarto-migration/assets/CV.pdf
 ---
 
 ## About Me 
