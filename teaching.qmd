@@ -4,7 +4,7 @@ sidebar: false
 
 # Teaching
 
-I am the instructor for **STAT 545** in 2022W1: a graduate course that teaches students how to write a clean and modern data analysis.  You can find out more about STAT 545 by visiting [the course website](https://stat545.stat.ubc.ca/). 
+I am the instructor for **STAT 545**: a graduate course that teaches students how to write a clean and modern data analysis.  You can find out more about STAT 545 by visiting [the course website](https://stat545.stat.ubc.ca/). 
 
 I may have available **STAT 548** qualifying projects: see [this page](STAT548.qmd).
 

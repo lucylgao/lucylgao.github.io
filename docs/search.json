@@ -25,7 +25,7 @@
     "href": "STAT548.html#paper-options",
     "title": "STAT 548 PhD Qualifying Course Papers",
     "section": "Paper Options",
-    "text": "Paper Options\nThe papers listed below are relevant to the type of PhD dissertation I am most interested in supervising right now: methodological work on validation and inference for statistical machine learning models, especially of the unsupervised sort. That being said, I am broadly interested in applications/methodology/theory in biostatistics and applications/methodology in statistical learning. I am happy to open a dialogue with you if there is a paper that fits those characteristics you are particularly interested in working on with me.\n\nBourgon, Gentleman, and Huber (2010). Independent filtering increases detection power for high-throughput experiments.\n\n\nTopics: Genomics, multiple testing, selective inference\nQuestion Idea: Do mean and variance filters satisfy the marginal independence criterion when the data are non-Gaussian?\n\n\n(TAKEN) Christian Hennig (2007). Cluster-wise assessment of cluster stability.\n\n\nTopics: Unsupervised learning, model validation\nQuestion Idea: Is the bootstrapped distribution of maximum Jaccard coefficient a good approximation to the distribution it attempts to approximate? (See page 6).\n\n\nEfron and Tibshirani (1997). Improvements on cross-validation: The .632+ Bootstrap Method\n\n\nTopics: Supervised learning, model validation\nQuestion Idea: What is a characteristic of the training set that could impact the bias of cross-validation as an estimator of conditional error rate?\n\n\nAttribution: Inspired by many colleagues, including Daniel, Yongjin, Trevor, Geoff, and Ben."
+    "text": "Paper Options\nThe papers listed below are relevant to the type of PhD dissertation I am most interested in supervising right now: methodological work on validation and inference for statistical machine learning models, especially of the unsupervised sort. That being said, I am broadly interested in applications/methodology/theory in biostatistics and applications/methodology in statistical learning. I am happy to open a dialogue with you if there is a paper that fits those characteristics you are particularly interested in working on with me.\n\n(TAKEN) Bourgon, Gentleman, and Huber (2010). Independent filtering increases detection power for high-throughput experiments.\n\n\nTopics: Genomics, multiple testing, selective inference\nQuestion Idea: Do mean and variance filters satisfy the marginal independence criterion when the data are non-Gaussian?\n\n\n(TAKEN) Christian Hennig (2007). Cluster-wise assessment of cluster stability.\n\n\nTopics: Unsupervised learning, model validation\nQuestion Idea: Is the bootstrapped distribution of maximum Jaccard coefficient a good approximation to the distribution it attempts to approximate? (See page 6).\n\n\nEfron and Tibshirani (1997). Improvements on cross-validation: The .632+ Bootstrap Method\n\n\nTopics: Supervised learning, model validation\nQuestion Idea: What is a characteristic of the training set that could impact the bias of cross-validation as an estimator of conditional error rate?\n\n\nAttribution: Inspired by many colleagues, including Daniel, Yongjin, Trevor, Geoff, and Ben."
   },
   {
     "objectID": "index.html",
@@ -130,42 +130,42 @@
     "href": "research.html#pre-prints",
     "title": "Research",
     "section": "Pre-prints",
-    "text": "Pre-prints\nAbigail Keller, Lucy L. Gao, Daniela Witten, and Maitreya J. Dunham (2023+). Condition-dependent fitness effects of large synthetic chromosome amplifications. [pdf]\nAmeer Dharamshi, Anna Neufeld, Keshav Motwani, Lucy L. Gao, Daniela Witten, and Jacob Bien. (2023+) Generalized data thinning using sufficient statistics. [pdf]\nAnna Neufeld, Ameer Dharamshi, Lucy L. Gao, and Daniela Witten (2023+) Data thinning for convolution-closed distributions. [pdf] [software]"
+    "text": "Pre-prints\nYiqun T. Chen and Lucy L. Gao (2023) Testing for a difference in means of a single feature after clustering. [pdf]\nLucy L. Gao*, Jane J. Ye*, Haian Yin*, Shangzhi Zeng*, and Jin Zhang* (2023) Moreau Envelope Based Difference-of-weakly-Convex Reformulation and Algorithm for Bilevel Programs. [pdf]\nAbigail Keller, Lucy L. Gao, Daniela Witten, and Maitreya J. Dunham (2023) Condition-dependent fitness effects of large synthetic chromosome amplifications. [pdf]\nAmeer Dharamshi, Anna Neufeld, Keshav Motwani, Lucy L. Gao, Daniela Witten, and Jacob Bien (2023) Generalized data thinning using sufficient statistics. [pdf]"
   },
   {
     "objectID": "research.html#accepted",
     "href": "research.html#accepted",
     "title": "Research",
     "section": "Accepted",
-    "text": "Accepted\nLucy L. Gao*, Jane J. Ye*, Shangzhi Zeng*, Julie Zhou* (2023+) Necessary and sufficient conditions for multiple objective optimal regression designs. To appear in Statistica Sinica. [pdf][code]\nAnna Neufeld, Lucy L. Gao, Joshua Popp, Alexis Battle, and Daniela Witten (2023+) Inference after latent variable estimation for single-cell RNA-sequencing data. To appear in Biostatistics. [pdf] [software]\nLucy L. Gao, Jacob Bien, and Daniela Witten (2023+) Selective inference for hierarchical clustering. To appear in Journal of the American Statistical Association. [pdf] [software]"
+    "text": "Accepted\nAnna Neufeld, Ameer Dharamshi, Lucy L. Gao, and Daniela Witten (2024+) Data thinning for convolution-closed distributions. To appear in Journal of Machine Learning Research. [pdf] [software]\nLucy L. Gao*, Jane J. Ye*, Shangzhi Zeng*, and Julie Zhou* (2024+) Necessary and sufficient conditions for multiple objective optimal regression designs. To appear in Statistica Sinica. [pdf][code]"
   },
   {
     "objectID": "research.html#section",
     "href": "research.html#section",
     "title": "Research",
-    "section": "2022",
-    "text": "2022\nAnna Neufeld, Lucy L. Gao, and Daniela Witten (2022) Tree-values: selective inference for regression trees. Journal of Machine Learning Research, 23(305), 1−43. [pdf] [software]\nLucy L. Gao, Daniela Witten and Jacob Bien (2022) Testing for association in multi-view network data. Biometrics, 78(3), 1018-1030. [pdf] [software]\nLucy L. Gao*, Jane J. Ye*, Haian Yin*, Shangzhi Zeng*, Jin Zhang* (2022). Value function based difference-of-convex algorithm for bilevel hyperparameter selection problems. Proceedings of International Conference on Machine Learning (ICML) 2022. [pdf] [code]\nPengqi Liu, Lucy L. Gao and Julie Zhou (2022). R-optimal designs for multi-response regression models with multi-factors. Communications in Statistics - Theory and Methods, 51(2), 340-355. [pdf]"
+    "section": "2024",
+    "text": "2024\nLucy L. Gao, Jacob Bien, and Daniela Witten (2024) Selective inference for hierarchical clustering. Journal of the American Statistical Association, 119(545), 332-342. [pdf] [software]\nAnna Neufeld, Lucy L. Gao, Joshua Popp, Alexis Battle, and Daniela Witten (2024) Inference after latent variable estimation for single-cell RNA-sequencing data. Biostatistics, 25(1), 270-287. [pdf] [software]"
   },
   {
     "objectID": "research.html#section-1",
     "href": "research.html#section-1",
     "title": "Research",
-    "section": "2020",
-    "text": "2020\nLucy L. Gao, Jacob Bien and Daniela Witten (2020). Are clusterings of multiple data views independent? Biostatistics, 21(4), 692-708. [pdf] [software]\nLucy L. Gao and Julie Zhou (2020). Minimax D-optimal designs for multivariate regression models with multi-factors. Journal of Statistical Planning and Inference. [pdf]"
+    "section": "2022",
+    "text": "2022\nAnna Neufeld, Lucy L. Gao, and Daniela Witten (2022) Tree-values: selective inference for regression trees. Journal of Machine Learning Research, 23(305), 1−43. [pdf] [software]\nLucy L. Gao, Daniela Witten and Jacob Bien (2022) Testing for association in multi-view network data. Biometrics, 78(3), 1018-1030. [pdf] [software]\nLucy L. Gao*, Jane J. Ye*, Haian Yin*, Shangzhi Zeng*, and Jin Zhang* (2022). Value function based difference-of-convex algorithm for bilevel hyperparameter selection problems. Proceedings of International Conference on Machine Learning (ICML) 2022. [pdf] [code]\nPengqi Liu, Lucy L. Gao and Julie Zhou (2022). R-optimal designs for multi-response regression models with multi-factors. Communications in Statistics - Theory and Methods, 51(2), 340-355. [pdf]"
   },
   {
     "objectID": "research.html#section-2",
     "href": "research.html#section-2",
     "title": "Research",
-    "section": "2015-2019",
-    "text": "2015-2019\nEvelyn Hsu, Michele Shaffer, Lucy L. Gao, Christopher Sonnenday, Michael Volk, John Bucuvalas, and Jennifer Lai (2017). Analysis of liver offers to pediatric candidates on the transplant wait list. Gastroenterology, 153 (4), 998-995.\nLucy L. Gao* and Julie Zhou* (2017). D-optimal designs based on the second-order least squares estimator. Statistical Papers, 58(2), 77-94. [pdf]\nLucy L. Gao and Julie Zhou (2014) New optimal design criteria for regression models with asymmetric errors. Journal of Statistical Planning and Inference, 149: 140-151."
+    "section": "2020",
+    "text": "2020\nLucy L. Gao, Jacob Bien and Daniela Witten (2020). Are clusterings of multiple data views independent? Biostatistics, 21(4), 692-708. [pdf] [software]\nLucy L. Gao and Julie Zhou (2020). Minimax D-optimal designs for multivariate regression models with multi-factors. Journal of Statistical Planning and Inference. [pdf]"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "I am the instructor for STAT 545 in 2022W1: a graduate course that teaches students how to write a clean and modern data analysis. You can find out more about STAT 545 by visiting the course website.\nI may have available STAT 548 qualifying projects: see this page."
+    "text": "I am the instructor for STAT 545: a graduate course that teaches students how to write a clean and modern data analysis. You can find out more about STAT 545 by visiting the course website.\nI may have available STAT 548 qualifying projects: see this page."
   },
   {
     "objectID": "teaching.html#if-i-have-not-already-agreed-to-write-you-a-letter",
@@ -270,7 +270,7 @@
     "href": "group.html#will-i-be-your-mscphd-supervisor-at-ubc",
     "title": "Research Group",
     "section": "Will I be your MSc/PhD supervisor at UBC?",
-    "text": "Will I be your MSc/PhD supervisor at UBC?\n\nProspective students:\nAt UBC, all applications are reviewed by our admissions committee and students do not need to (or can they) find supervisors prior to admissions. Furthermore, all applications are considered for funding, and you do not need to separately apply for funding from a specific faculty member.\nAll I can tell you prior to admission is that I currently have space and funding in my research group for MSc and PhD students. \n\n\nCurrent students:\nI encourage you to reach out to me by email to schedule an informational meeting. If you are a PhD student, I also encourage you to do a STAT 548 paper with me."
+    "text": "Will I be your MSc/PhD supervisor at UBC?\n\nProspective students:\nAt UBC, all applications are reviewed by our admissions committee and students do not need to (or can they) find supervisors prior to admissions. Furthermore, all applications are considered for funding, and you do not need to separately apply for funding from a specific faculty member.\nAll I can tell you prior to admission is whether I am open to the idea of onboarding a MSc and PhD student to my research group in the coming academic years.\n\n\nCurrent students:\nI encourage you to reach out to me by email to schedule an informational meeting. If you are a PhD student, I also encourage you to do a STAT 548 paper with me."
   },
   {
     "objectID": "group.html#will-i-be-your-mmathphd-supervisor-at-waterloo",
@@ -285,5 +285,12 @@
     "title": "Resources for Students",
     "section": "",
     "text": "I have come across a number of resources for helping students navigate graduate school, academia, research, and career planning. These are especially helpful for students looking to understand typically unwritten customs and procedures. This page is by no means comprehensive but I do update it when I find new goodies!\n(Caveat: these resources resonate with my own experiences in USA and Canada, but may not generalize to experiences in other countries.)\n\nOn interacting with faculty\n\nGuide to Interacting With Faculty\nAdressing People in Academia\nEmailing a Professor: How to Do It Well\n\n\n\nOn graduate school and research\n\nAdvice on applying to Graduate School\nOn Personal/Research Statements for Statistics/Biostatistics Graduate Program Applications\nMaintaining Work-Life Balance in a Stat-ML PhD\n\n\n\nOn the academic job market\n\nAcademic Cover Letters for Statistical Science Faculty Positions\nAcademic CVs for Statistical Science Faculty Positions"
+  },
+  {
+    "objectID": "research.html#section-3",
+    "href": "research.html#section-3",
+    "title": "Research",
+    "section": "2015-2019",
+    "text": "2015-2019\nEvelyn Hsu, Michele Shaffer, Lucy L. Gao, Christopher Sonnenday, Michael Volk, John Bucuvalas, and Jennifer Lai (2017). Analysis of liver offers to pediatric candidates on the transplant wait list. Gastroenterology, 153 (4), 998-995.\nLucy L. Gao* and Julie Zhou* (2017). D-optimal designs based on the second-order least squares estimator. Statistical Papers, 58(2), 77-94. [pdf]\nLucy L. Gao and Julie Zhou (2014) New optimal design criteria for regression models with asymmetric errors. Journal of Statistical Planning and Inference, 149: 140-151."
   }
 ]
