@@ -14,15 +14,17 @@ I have secondary interests in developing theory and methodology in the area of o
 In the following, \* represents alphabetical author ordering.
 
 ## Pre-prints 
-Yiqun T. Chen and **Lucy L. Gao** (2023) Testing for a difference in means of a single feature after clustering. [[pdf](https://arxiv.org/pdf/2311.16375.pdf)]
+Yiqun T. Chen and **Lucy L. Gao**. Testing for a difference in means of a single feature after clustering. [[pdf](https://arxiv.org/pdf/2311.16375.pdf)]
 
-**Lucy L. Gao**\*, Jane J. Ye\*, Haian Yin\*, Shangzhi Zeng\*, and Jin Zhang\* (2023) Moreau Envelope Based Difference-of-weakly-Convex Reformulation and Algorithm for Bilevel Programs. [[pdf](https://arxiv.org/abs/2306.16761)]
+**Lucy L. Gao**\*, Jane J. Ye\*, Haian Yin\*, Shangzhi Zeng\*, and Jin Zhang\*. Moreau Envelope Based Difference-of-weakly-Convex Reformulation and Algorithm for Bilevel Programs. [[pdf](https://arxiv.org/abs/2306.16761)]
 
-Abigail Keller, **Lucy L. Gao**, Daniela Witten, and Maitreya J. Dunham (2023) Condition-dependent fitness effects of large synthetic chromosome amplifications. [[pdf](https://www.biorxiv.org/content/10.1101/2023.06.08.544269v1)]
+Abigail Keller, **Lucy L. Gao**, Daniela Witten, and Maitreya J. Dunham. Condition-dependent fitness effects of large synthetic chromosome amplifications. [[pdf](https://www.biorxiv.org/content/10.1101/2023.06.08.544269v1)]
 
-Ameer Dharamshi, Anna Neufeld, Keshav Motwani, **Lucy L. Gao**, Daniela Witten, and Jacob Bien (2023) Generalized data thinning using sufficient statistics. [[pdf](https://arxiv.org/abs/2303.12931)]
+
 
 ## Accepted
+
+Ameer Dharamshi, Anna Neufeld, Keshav Motwani, **Lucy L. Gao**, Daniela Witten, and Jacob Bien (2024+). Generalized data thinning using sufficient statistics. To appear in *Journal of the Americal Statistical Association*. [[pdf](https://arxiv.org/abs/2303.12931)]
 
 Anna Neufeld, Ameer Dharamshi, **Lucy L. Gao**, and Daniela Witten (2024+) Data thinning for convolution-closed distributions. To appear in *Journal of Machine Learning Research*. [[pdf](https://arxiv.org/abs/2301.07276)] [[software](https://anna-neufeld.github.io/datathin/index.html)]
 

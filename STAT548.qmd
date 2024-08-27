@@ -3,6 +3,8 @@ title: "STAT 548 PhD Qualifying Course Papers"
 sidebar: false
 ---
 
+**Last updated**: March 2024
+
 ## Getting Started
 
 I am a biostatistician with a strong background in general statistical methodology, especially in the area of statistical machine learning. You can learn more specifics about my research from the Research page on my website or from my Twitter (link on the bottom of this page).
