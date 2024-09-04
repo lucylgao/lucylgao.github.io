@@ -1,0 +1,43 @@
+---
+sidebar: false
+---
+
+# Research Group 
+
+## PhD students
+
+**Andrew Kenig**, Waterloo Statistics PhD |  2021-current 
+
+- Co-supervised with [Shoja'eddin Chenouri](https://uwaterloo.ca/statistics-and-actuarial-science/people-profiles/shojaeddin-chenouri)
+
+## Alumni
+
+**Thu Nguyen**, UBC MSc (2023)
+
+**Steven Mak**, Waterloo MMath (2022)
+
+**Qiaoyu Liang**, Waterloo MMath (2021)
+
+- First position after graduation: PhD Statistics student at the University of Toronto
+
+# Questions about Supervision, Funding, and Admissions
+
+## Will I be your MSc/PhD supervisor at UBC?  
+
+### Prospective students:
+
+At UBC, all applications are reviewed by our admissions committee and students do not need to (or can they) find supervisors prior to admissions. Furthermore, all applications are considered for funding, and you do not need to separately apply for funding from a specific faculty member. 
+
+All I can tell you prior to admission is whether I am open to the idea of onboarding a MSc and PhD student to my research group in the coming academic years. 
+
+### Current students: 
+
+I encourage you to reach out to me by email to schedule an informational meeting. If you are a PhD student, I also encourage you to do a [STAT 548](STAT548.qmd) paper with me. 
+
+## Will I be your MMath/PhD supervisor at Waterloo? 
+
+First, note that I have zero control over graduate admissions at Waterloo. 
+
+Second, note that I am far from an ideal MMath or PhD supervisor, as I am an adjunct member of the department. (That means I am an unpaid, part-time, temporary faculty member.) Moreover, I live in Vancouver and I imagine that you live in Waterloo.
+
+If you *really* want to work with me, then you *may* be able to arrange for co-supervision with a non-adjunct Waterloo Statistics faculty member. If you are interested in this option, then **please** make sure to discuss it with your proposed co-supervisor before contacting me - it is not safe to assume that they would be interested in co-supervising you with me, or in fact in co-supervision at all! 

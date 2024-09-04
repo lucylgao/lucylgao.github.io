@@ -1,0 +1,289 @@
+[
+  {
+    "objectID": "STAT548.html",
+    "href": "STAT548.html",
+    "title": "STAT 548 PhD Qualifying Course Papers",
+    "section": "",
+    "text": "Last updated: March 2024"
+  },
+  {
+    "objectID": "STAT548.html#getting-started",
+    "href": "STAT548.html#getting-started",
+    "title": "STAT 548 PhD Qualifying Course Papers",
+    "section": "Getting Started",
+    "text": "Getting Started\nI am a biostatistician with a strong background in general statistical methodology, especially in the area of statistical machine learning. You can learn more specifics about my research from the Research page on my website or from my Twitter (link on the bottom of this page).\nIf you are interested in doing a qualifying paper (QP) with me, then please email me to schedule a one-on-one meeting. At our first meeting, please be prepared to discuss:\n\nYour background.\nYour long-term research interests (it’s okay if these are not yet well-defined).\nWhy you are interested in the particular paper/project.\nWhen you will submit your report (typically about four-six weeks after we meet).\n\nTo ensure a productive meeting, please do a preliminary review of the paper before we meet."
+  },
+  {
+    "objectID": "STAT548.html#deliverables",
+    "href": "STAT548.html#deliverables",
+    "title": "STAT 548 PhD Qualifying Course Papers",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nReport\nThe final report for your QP will be in pdf form and typeset in LaTeX with 1.5 spacing and 12 point font. It will have three major components:\n\nAn extended review of the paper. (Max 4 pages)\nA mini-research project addressing a question you might have after reading the paper. (Max 4 pages)\nA discussion of an idea for a research project you have after reading the paper. (Max 2 pages)\n\nIn the first part, you should write a high-level review of the ideas in the paper, followed by a thoughtful evaluation of the significance and limitations of the work. Conclude with at least two questions you have for the authors. This structure matches that of reviews of papers submitted to a journal, and will help you practice thinking critically about papers you read.\nIn the second part, you may either choose a question I have provided below, or propose a new question. If you propose a new question, think very carefully about scope – you want to be able to provide at least a somewhat satisfying answer to the question within your timeline! In either case, I expect the content of this part of your report to contain some arguments based on mathematical/statistical understanding, and some arguments based on simulation results.\nIn the third part, you will demonstrate your ability to think creatively and savvily about research. First, introduce your research idea; to help you brainstorm, common “classes” of research projects include generalizations, extensions, or novel applications of the paper. Then, explain how impactful this research would be if it succeeded. Finally, explain how feasible the idea is. This content matches what you would find in any project proposal, whether it be at a company or in academia.\n\n\nFinal Checklist\nWhen you are ready to submit, provide me with:\n\nThe report (everything needed to generate the pdf report plus the pdf report itself).\nAll code needed to reproduce all experimental/numerical results in the report. All code should have informative file names (e.g. Figure1.R) and be clearly commented and documented. Code can be in any language you wish, though I strongly prefer R."
+  },
+  {
+    "objectID": "STAT548.html#paper-options",
+    "href": "STAT548.html#paper-options",
+    "title": "STAT 548 PhD Qualifying Course Papers",
+    "section": "Paper Options",
+    "text": "Paper Options\nThe papers listed below are relevant to the type of PhD dissertation I am most interested in supervising right now: methodological work on validation and inference for statistical machine learning models, especially of the unsupervised sort. That being said, I am broadly interested in applications/methodology/theory in biostatistics and applications/methodology in statistical learning. I am happy to open a dialogue with you if there is a paper that fits those characteristics you are particularly interested in working on with me.\n\n(TAKEN) Bourgon, Gentleman, and Huber (2010). Independent filtering increases detection power for high-throughput experiments.\n\n\nTopics: Genomics, multiple testing, selective inference\nQuestion Idea: Do mean and variance filters satisfy the marginal independence criterion when the data are non-Gaussian?\n\n\n(TAKEN) Christian Hennig (2007). Cluster-wise assessment of cluster stability.\n\n\nTopics: Unsupervised learning, model validation\nQuestion Idea: Is the bootstrapped distribution of maximum Jaccard coefficient a good approximation to the distribution it attempts to approximate? (See page 6).\n\n\nEfron and Tibshirani (1997). Improvements on cross-validation: The .632+ Bootstrap Method\n\n\nTopics: Supervised learning, model validation\nQuestion Idea: What is a characteristic of the training set that could impact the bias of cross-validation as an estimator of conditional error rate?\n\n\nAttribution: Inspired by many colleagues, including Daniel, Yongjin, Trevor, Geoff, and Ben."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lucy L. Gao",
+    "section": "",
+    "text": "NOTE: I am on leave between September 1 2024 and August 31, 2025.\nI am an Assistant Professor of Statistics at the University of British Columbia. I work on:\n\nStatistical methods at the intersection of biostatistics and statistical learning, and\nStatistical theory and methodology for the optimal design of experiments."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Lucy L. Gao",
+    "section": "",
+    "text": "NOTE: I am on leave between September 1 2024 and August 31, 2025.\nI am an Assistant Professor of Statistics at the University of British Columbia. I work on:\n\nStatistical methods at the intersection of biostatistics and statistical learning, and\nStatistical theory and methodology for the optimal design of experiments."
+  },
+  {
+    "objectID": "index.html#address-and-phone",
+    "href": "index.html#address-and-phone",
+    "title": "Lucy L. Gao",
+    "section": "Address and Phone",
+    "text": "Address and Phone\n3128 Earth Sciences Building  2207 Main Mall  Vancouver, BC V6T 1Z4 Canada  604-822-1300"
+  },
+  {
+    "objectID": "clusterpval/HierCluster.html",
+    "href": "clusterpval/HierCluster.html",
+    "title": "Hierarchical Clustering Tutorial",
+    "section": "",
+    "text": "In this tutorial, we demonstrate how to use the clusterpval package to compute p-values for a difference in means between two clusters obtained by applying hierarchical clustering (with squared Euclidean distance) to a data set.\nFirst, load the package:\nrequire(clusterpval)\nrequire(fastcluster)\nWe also load the fastclusterpackage, which is a highly computationally efficient drop-in replacement for the hclust function in the stats package. This IS NOT optional if you are using complete linkage hierarchical clustering, but IS optional if you are using any other linkage (e.g. average)."
+  },
+  {
+    "objectID": "clusterpval/HierCluster.html#plotting-and-clustering-data",
+    "href": "clusterpval/HierCluster.html#plotting-and-clustering-data",
+    "title": "Hierarchical Clustering Tutorial",
+    "section": "Plotting and clustering data",
+    "text": "Plotting and clustering data\nWe will illustrate the software on a subset of the Palmer penguins data, which contains data on three species of penguins: Adelie, Chinstrap, and Gentoo.\n\nrequire(palmerpenguins)\nrequire(ggplot2)\noptions(ggplot2.discrete.colour=list(RColorBrewer::brewer.pal(6, \"Dark2\")[c(6, 1, 5, 4, 3, 2)]))\n\ndat &lt;- penguins[complete.cases(penguins), ]\ndat &lt;- dat[dat$sex == \"female\", c(1, 3, 5)]\n\nggplot(dat) + geom_point(aes(x=flipper_length_mm, y = bill_length_mm, \n                 shape=as.factor(species)), size = 3, fill=\"grey\", colour=\"black\") + \n  scale_shape_manual(name=\"Species\", values=c(21, 24, 22)) + \n  ylab(\"Bill length (mm)\") + xlab(\"Flipper length (mm)\") + coord_fixed() + \n  theme_bw(base_size=22) + ggtitle(\"Penguins\") + theme(legend.position=\"right\")\n\n\n\n\nLet’s cluster the data using average linkage hierarchical clustering with squared Euclidean distance. We plot the dendrogram, and cut the dendrogram to get six clusters.\n\nX &lt;- as.matrix(dat[, -c(1)]) # remove species and convert to matrix\nhcl &lt;- hclust(dist(X, method=\"euclidean\")^2, method=\"average\") \nplot(as.dendrogram(hcl), leaflab=\"none\")\nabline(h=(hcl$height[nrow(X) - 6] + 50), lty=\"dashed\", col=\"darkgrey\")\n\n\n\n\nNow let’s pick pairs of clusters to test. We “name” the six clusters according to the output of the cutree function, which is not always the same as left-to-right ordering in the dendrogram. To figure out what each cluster in the dendrogram is called, we can use the rect_hier_clusters function to put coloured rectangles around the six clusters.\n\nplot(as.dendrogram(hcl), leaflab=\"none\")\nabline(h=(hcl$height[nrow(X) - 6] + 50), lty=\"dashed\", col=\"darkgrey\")\nrect_hier_clusters(hcl, k=6, which=1:6, border=RColorBrewer::brewer.pal(6, \"Dark2\")[c(6, 1, 5, 4, 3, 2)])\n\n\n\n\nSo visually, if we would like to test for a difference in means between the blue and green clusters, we would set k1 to be 4 and k2 to be 5. (You can see this from the order of the colors in the “border” argument above.)\n\ntable(dat$species, cutree(hcl,k=6))\n\n           \n             1  2  3  4  5  6\n  Adelie    60 12  1  0  0  0\n  Chinstrap  4  2  0  0 27  1\n  Gentoo     0  0  0 57  1  0\n\nggplot(dat) + geom_point(aes(x=flipper_length_mm, y = bill_length_mm, \n                 shape=as.factor(species), fill=as.factor(cutree(hcl, 6))), size = 3, colour=\"black\") + scale_fill_discrete(name=\"Clusters\", guide=guide_legend(ncol=2, override.aes=list(shape=21))) + \n  scale_shape_manual(name=\"Species\", values=c(21, 24, 22), guide=guide_legend(override.aes=list(fill=\"black\"))) +\n  ylab(\"Bill length (mm)\") + xlab(\"Flipper length (mm)\") + coord_fixed() + \n  theme_bw(base_size=22) + ggtitle(\"Penguins\") + theme(legend.position=\"right\") \n\n\n\n\nYou can see that Clusters 1 and 2 both mostly contain Adelie penguins, Cluster 4 mostly contains Gentoo Penguins, and Cluster 5 mostly contains Chinstrap penguins. Clusters 3 and 6 contain one penguin each."
+  },
+  {
+    "objectID": "clusterpval/HierCluster.html#testing-for-a-difference-in-means-between-clusters",
+    "href": "clusterpval/HierCluster.html#testing-for-a-difference-in-means-between-clusters",
+    "title": "Hierarchical Clustering Tutorial",
+    "section": "Testing for a difference in means between clusters",
+    "text": "Testing for a difference in means between clusters\nWe’ll test for a difference in means between Clusters 1 and 2 (both containing Adelie penguins), and between Clusters 4 and 5 (containing mostly Gentoo and Chinstrap penguins, respectively) using the test_hier_clusters_exact function. By default, this function plugs in a simple estimate of \\(\\sigma^2\\) given by \\(\\sum \\limits_{i=1}^n \\sum \\limits_{j=1}^p (x_{ij} - \\bar{x}_j)^2/(np - p)\\), where \\(\\bar{x}_j\\) is the mean of the \\(j\\)th feature. Note that if there really are clusters in the data, then this estimate will be larger than it should be, but if there really are no clusters in the data, then this estimate will be unbiased and consistent.\n\ntest_hier_clusters_exact(X, link=\"average\", K=6, k1=1, k2=2, hcl=hcl)\n\n$stat\n[1] 10.41961\n\n$pval\n[1] 0.8667368\n\n$trunc\nObject of class Intervals\n2 intervals over R:\n(10.3122059802435, 16.3904453676166)\n(131.758884280403, Inf)\n\ntest_hier_clusters_exact(X, link=\"average\", K=6, k1=4, k2=5, hcl=hcl)\n\n$stat\n[1] 18.86523\n\n$pval\n[1] 0.0004528178\n\n$trunc\nObject of class Intervals\n2 intervals over R:\n(16.8300111004978, 21.6868651391918)\n(63.4548051430845, Inf)\n\n\nWe now have the test statistic, exact p-value, and conditioning set \\(\\mathcal{S}\\). We get a small p-value when testing for a difference in means between clusters containing different species, and a large p-value when testing for a difference in means between clusters containing the same species.\nNow, let’s try complete linkage hierarchical clustering. We plot the dendrogram, and cut the dendrogram to get three clusters.\n\nhcl &lt;- hclust(dist(X, method=\"euclidean\")^2, method=\"complete\") \nplot(as.dendrogram(hcl), leaflab=\"none\")\nabline(h=(hcl$height[nrow(X) - 3] + 200), lty=\"dashed\", col=\"darkgrey\")\nrect_hier_clusters(hcl, k=3, which=1:3, border=c(\"orange\", \"blue\", \"green\"))\n\n\n\ntable(dat$species, cutree(hcl, 3))\n\n           \n             1  2  3\n  Adelie    67  6  0\n  Chinstrap 20 14  0\n  Gentoo     0  1 57\n\n\nObserve that Clusters 1 and 2 (which are orange and blue in the dendrogram above) are both mixes of Adelie and Chinstrap penguins, and Cluster 3 (which is green in the dendrogram above) is largely Gentoo penguins. We’ll test for a difference in means between Clusters 1 and 3 using the test_complete_hier_clusters_approx function. This approximately computes a p-value for the difference in means using Monte Carlo sampling. By default, this function also plugs in the simple estimate of \\(\\sigma^2\\) given by \\(\\sum \\limits_{i=1}^n \\sum \\limits_{j=1}^p (x_{ij} - \\bar{x}_j)^2/(np-p)\\).\n\nset.seed(123)\ntest_complete_hier_clusters_approx(X, K=3, k1=2, k2=3, ndraws=10000, hcl=hcl)\n\n$stat\n[1] 15.36703\n\n$pval\n[1] 0.004396524\n\n$stderr\n[1] 0.0004490352\n\n\nIn the results above, the estimated p-value comes from Monte Carlo, which means that it is subject to Monte Carlo sampling error. Thus, we also report a standard error estimate for the p-value, that captures the uncertainty due to Monte Carlo sampling error. If more precision is desired, you could adjust the number of Monte Carlo samples using the ndraws argument of test_complete_hier_clusters_approx.\nObserve that the estimated p-value for a difference in means between Cluster 1 and Cluster 3 is small - this is good, because the penguin species are different in the two clusters.\n\n© 2020 Lucy L. Gao (lucylgao at uwaterloo dot ca)"
+  },
+  {
+    "objectID": "clusterpval/technical.html",
+    "href": "clusterpval/technical.html",
+    "title": "Technical Details",
+    "section": "",
+    "text": "We model n observations of a \\(p\\)-vector as a matrix Gaussian: \\[{\\bf X} \\sim \\mathcal{MN}_{n \\times p} (\\boldsymbol{\\mu}, {\\bf I}_n, \\sigma^2 {\\bf I}_p),\\] where \\(\\boldsymbol{\\mu} \\in \\mathbb{R}^{n \\times p}\\), with rows \\(\\mu_i\\), is unknown, and \\(\\sigma^2 &gt; 0\\) is known. This says that the rows \\(X_i \\in \\mathbb{R}^p\\) of \\({\\bf X}\\) are independent multivariate Gaussian random vectors with mean \\(\\mu_i\\) and covariance matrix \\(\\sigma^2 {\\bf I}_p\\)."
+  },
+  {
+    "objectID": "clusterpval/technical.html#model",
+    "href": "clusterpval/technical.html#model",
+    "title": "Technical Details",
+    "section": "",
+    "text": "We model n observations of a \\(p\\)-vector as a matrix Gaussian: \\[{\\bf X} \\sim \\mathcal{MN}_{n \\times p} (\\boldsymbol{\\mu}, {\\bf I}_n, \\sigma^2 {\\bf I}_p),\\] where \\(\\boldsymbol{\\mu} \\in \\mathbb{R}^{n \\times p}\\), with rows \\(\\mu_i\\), is unknown, and \\(\\sigma^2 &gt; 0\\) is known. This says that the rows \\(X_i \\in \\mathbb{R}^p\\) of \\({\\bf X}\\) are independent multivariate Gaussian random vectors with mean \\(\\mu_i\\) and covariance matrix \\(\\sigma^2 {\\bf I}_p\\)."
+  },
+  {
+    "objectID": "clusterpval/technical.html#problem-set-up",
+    "href": "clusterpval/technical.html#problem-set-up",
+    "title": "Technical Details",
+    "section": "Problem set-up",
+    "text": "Problem set-up\nGiven any realization \\({\\bf x} \\in \\mathbb{R}^{n \\times p}\\) of \\({\\bf X}\\), we consider clustering \\({\\bf x}\\) to obtain \\(\\mathcal{C}({\\bf x})\\), a partition of \\(\\{1, 2, \\ldots, n\\}\\), then using \\({\\bf x}\\) to test, for a pair of clusters \\(C_1, C_2 \\in \\mathcal{C}({\\bf x})\\): \\[ H_0: \\bar{\\mu}_{C_1} = \\bar{\\mu}_{C_2} \\quad \\text{vs.}\\quad H_1: \\bar{\\mu}_{C_1} \\neq \\bar{\\mu}_{C_2}, \\] where \\(\\bar{\\mu}_{C_k} = \\sum \\limits_{i \\in C_k} \\mu_i/|C_k|\\) is the mean of \\(\\boldsymbol \\mu\\) in \\(C_k\\). Let \\(\\bar{X}_{C_k} = \\sum \\limits_{i \\in C_k} X_i/|C_k|\\) be the empirical mean in \\({\\bf X}\\) of \\(C_k\\). One might be tempted to simply apply a Wald test of \\(H_0: \\bar{\\mu}_{C_1} = \\bar{\\mu}_{C_2}\\), with p-value given by \\[ \\mathbb{P}_{H_0} (\\|\\bar{X}_{C_1} - \\bar{X}_{C_2}\\|_2 \\geq \\|\\bar{x}_{C_1} - \\bar{x}_{C_2}\\|_2), \\] where \\(\\|\\bar{X}_{C_1} - \\bar{X}_{C_2}\\| \\sim \\left ( \\sigma \\sqrt{1/|C_1| + 1/|C_2|} \\right ) \\cdot \\chi_p\\). However, since the Wald test does not account for the fact that the clusters \\(C_1\\) and \\(C_2\\) were estimated from the data, it is virtually guaranteed to find a statistically significant difference between them. (Somewhat unintuitively, this problem cannot be solved by splitting the data into training and test sets; click here for an illustration.)"
+  },
+  {
+    "objectID": "clusterpval/technical.html#our-solution",
+    "href": "clusterpval/technical.html#our-solution",
+    "title": "Technical Details",
+    "section": "Our Solution",
+    "text": "Our Solution\nRoughly speaking, our framework is a version of the Wald test of \\(H_0: \\bar{\\mu}_{C_1} = \\bar{\\mu}_{C_2}\\) that conditions on the fact that we estimated \\(C_1\\) and \\(C_2\\) from the data, and therefore yields valid p-values. The p-values from our framework can be written as \\[ \\mathbb{P}(\\phi \\geq \\|\\bar{x}_{C_1} - \\bar{x}_{C_2}\\|_2 \\mid \\phi \\in \\mathcal{S}),\\] where \\(\\phi \\sim \\left ( \\sigma \\sqrt{1/|C_1| + 1/|C_2|} \\right ) \\cdot \\chi_p\\), \\[\\mathcal{S} = \\{\\phi: \\text{Clustering } {\\bf x}'(\\phi) \\text{ yields the clusters } C_1 \\text{ and } C_2 \\},\\] and \\({\\bf x}'(\\phi)\\) is a perturbed version of \\({\\bf x}\\), where observations in clusters \\(C_1\\) and \\(C_2\\) have been pulled apart (if \\(\\phi &gt; \\|\\bar{x}_{C_1} - \\bar{x}_{C_2}\\|_2\\)) or pushed together (if \\(\\phi &lt; \\|\\bar{x}_{C_1} - \\bar{x}_{C_2}\\|_2\\)) in the direction of \\(\\bar{x}_{C_1} - \\bar{x}_{C_2}\\).\nIf we can compute the conditioning set \\(\\mathcal{S}\\), then we can compute p-values exactly. Our software currently computes \\(\\mathcal{S}\\) for hierarchical clustering with squared Euclidean distance and single, average, weighted, centroid, median, or Ward linkage; see Section 3 of our paper for a description of the algorithms we use to compute \\(\\mathcal{S}\\). For hierarchical clustering with other linkages or non-hierarchical clustering methods, our software approximates the p-value using Monte Carlo sampling; details are in Section 4.1 of our paper."
+  },
+  {
+    "objectID": "clusterpval/technical.html#extensions",
+    "href": "clusterpval/technical.html#extensions",
+    "title": "Technical Details",
+    "section": "Extensions",
+    "text": "Extensions\nOur software can also compute p-values under the alternative model \\[{\\bf X} \\sim \\mathcal{MN}_{n \\times p} (\\boldsymbol{\\mu}, {\\bf I}_n, \\boldsymbol{\\Sigma}),\\] where \\(\\boldsymbol{\\Sigma}\\) is a known positive definite matrix; details are in Section 4.2 of our paper.\n\n© 2020 Lucy L. Gao (lucylgao at uwaterloo dot ca)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "The core of my research program investigates model validation and inference in the context of statistical machine learning. As scientists fit increasingly complex models to their data, there is an ever-growing need for methods that quantify our uncertainty in the quality of these models, and for methods that can formally test results suggested by these models. My work seeks to fill this gap, especially within the context of unsupervised learning, where existing methods for validation and inference are limited compared to the supervised learning setting. My research program has expanded our statistical toolkit for using a single data set to fit a supervised or unsupervised learning model and to (1) test hypotheses suggested by that fitted model, (2) assess the stability of that fitted model, or (3) accurately estimate the prediction error of that fitted model. The methods developed in the course of my research program are relevant to many application domains, and have particular impact in the field of single-cell genomics, where the output of unsupervised learning models are routinely used as surrogates for unobserved aspects of cell states.\nI have secondary interests in developing theory and methodology in the area of optimal experiment design and the selection of hyperparameters for statistical machine learning algorithms. These diverse areas are unified by my interest in adapting key ideas from the mathematical optimization community to statistical problems."
+  },
+  {
+    "objectID": "research.html#current-research-profile",
+    "href": "research.html#current-research-profile",
+    "title": "Research",
+    "section": "",
+    "text": "The core of my research program investigates model validation and inference in the context of statistical machine learning. As scientists fit increasingly complex models to their data, there is an ever-growing need for methods that quantify our uncertainty in the quality of these models, and for methods that can formally test results suggested by these models. My work seeks to fill this gap, especially within the context of unsupervised learning, where existing methods for validation and inference are limited compared to the supervised learning setting. My research program has expanded our statistical toolkit for using a single data set to fit a supervised or unsupervised learning model and to (1) test hypotheses suggested by that fitted model, (2) assess the stability of that fitted model, or (3) accurately estimate the prediction error of that fitted model. The methods developed in the course of my research program are relevant to many application domains, and have particular impact in the field of single-cell genomics, where the output of unsupervised learning models are routinely used as surrogates for unobserved aspects of cell states.\nI have secondary interests in developing theory and methodology in the area of optimal experiment design and the selection of hyperparameters for statistical machine learning algorithms. These diverse areas are unified by my interest in adapting key ideas from the mathematical optimization community to statistical problems."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\nIn the following, * represents alphabetical author ordering."
+  },
+  {
+    "objectID": "research.html#pre-prints",
+    "href": "research.html#pre-prints",
+    "title": "Research",
+    "section": "Pre-prints",
+    "text": "Pre-prints\nYiqun T. Chen and Lucy L. Gao. Testing for a difference in means of a single feature after clustering. [pdf]\nLucy L. Gao*, Jane J. Ye*, Haian Yin*, Shangzhi Zeng*, and Jin Zhang*. Moreau Envelope Based Difference-of-weakly-Convex Reformulation and Algorithm for Bilevel Programs. [pdf]\nAbigail Keller, Lucy L. Gao, Daniela Witten, and Maitreya J. Dunham. Condition-dependent fitness effects of large synthetic chromosome amplifications. [pdf]"
+  },
+  {
+    "objectID": "research.html#accepted",
+    "href": "research.html#accepted",
+    "title": "Research",
+    "section": "Accepted",
+    "text": "Accepted\nAmeer Dharamshi, Anna Neufeld, Keshav Motwani, Lucy L. Gao, Daniela Witten, and Jacob Bien (2024+). Generalized data thinning using sufficient statistics. To appear in Journal of the Americal Statistical Association. [pdf]\nAnna Neufeld, Ameer Dharamshi, Lucy L. Gao, and Daniela Witten (2024+) Data thinning for convolution-closed distributions. To appear in Journal of Machine Learning Research. [pdf] [software]\nLucy L. Gao*, Jane J. Ye*, Shangzhi Zeng*, and Julie Zhou* (2024+) Necessary and sufficient conditions for multiple objective optimal regression designs. To appear in Statistica Sinica. [pdf][code]"
+  },
+  {
+    "objectID": "research.html#section",
+    "href": "research.html#section",
+    "title": "Research",
+    "section": "2024",
+    "text": "2024\nLucy L. Gao, Jacob Bien, and Daniela Witten (2024) Selective inference for hierarchical clustering. Journal of the American Statistical Association, 119(545), 332-342. [pdf] [software]\nAnna Neufeld, Lucy L. Gao, Joshua Popp, Alexis Battle, and Daniela Witten (2024) Inference after latent variable estimation for single-cell RNA-sequencing data. Biostatistics, 25(1), 270-287. [pdf] [software]"
+  },
+  {
+    "objectID": "research.html#section-1",
+    "href": "research.html#section-1",
+    "title": "Research",
+    "section": "2022",
+    "text": "2022\nAnna Neufeld, Lucy L. Gao, and Daniela Witten (2022) Tree-values: selective inference for regression trees. Journal of Machine Learning Research, 23(305), 1−43. [pdf] [software]\nLucy L. Gao, Daniela Witten and Jacob Bien (2022) Testing for association in multi-view network data. Biometrics, 78(3), 1018-1030. [pdf] [software]\nLucy L. Gao*, Jane J. Ye*, Haian Yin*, Shangzhi Zeng*, and Jin Zhang* (2022). Value function based difference-of-convex algorithm for bilevel hyperparameter selection problems. Proceedings of International Conference on Machine Learning (ICML) 2022. [pdf] [code]\nPengqi Liu, Lucy L. Gao and Julie Zhou (2022). R-optimal designs for multi-response regression models with multi-factors. Communications in Statistics - Theory and Methods, 51(2), 340-355. [pdf]"
+  },
+  {
+    "objectID": "research.html#section-2",
+    "href": "research.html#section-2",
+    "title": "Research",
+    "section": "2020",
+    "text": "2020\nLucy L. Gao, Jacob Bien and Daniela Witten (2020). Are clusterings of multiple data views independent? Biostatistics, 21(4), 692-708. [pdf] [software]\nLucy L. Gao and Julie Zhou (2020). Minimax D-optimal designs for multivariate regression models with multi-factors. Journal of Statistical Planning and Inference. [pdf]"
+  },
+  {
+    "objectID": "research.html#section-3",
+    "href": "research.html#section-3",
+    "title": "Research",
+    "section": "2015-2019",
+    "text": "2015-2019\nEvelyn Hsu, Michele Shaffer, Lucy L. Gao, Christopher Sonnenday, Michael Volk, John Bucuvalas, and Jennifer Lai (2017). Analysis of liver offers to pediatric candidates on the transplant wait list. Gastroenterology, 153 (4), 998-995.\nLucy L. Gao* and Julie Zhou* (2017). D-optimal designs based on the second-order least squares estimator. Statistical Papers, 58(2), 77-94. [pdf]\nLucy L. Gao and Julie Zhou (2014) New optimal design criteria for regression models with asymmetric errors. Journal of Statistical Planning and Inference, 149: 140-151."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "In most years, I am the instructor for STAT 545: a graduate course that teaches students how to write a clean and modern data analysis. You can find out more about STAT 545 by visiting the course website.\nIn any given year, I may have available STAT 548 qualifying projects: see this page."
+  },
+  {
+    "objectID": "teaching.html#if-i-have-not-already-agreed-to-write-you-a-letter",
+    "href": "teaching.html#if-i-have-not-already-agreed-to-write-you-a-letter",
+    "title": "Teaching",
+    "section": "If I have not already agreed to write you a letter:",
+    "text": "If I have not already agreed to write you a letter:\nPlease email me at least a month before your first application deadline to ask whether I would be willing to write you a reference letter. Here is how I decide whether to say yes or no.\nI almost always accept requests if I am able to provide a strong letter. However, it is impossible for me to write a strong letter unless we have regularly interacted. Your graduate application should ideally include at least one strong letter.\nIf we did not interact regularly, but you achieved top scores in my class, then I can provide a “took a class with me” type letter. These types of letters are generally viewed by the graduate admissions committee as somewhere between lukewarm and moderately strong, depending on how much supporting detail I can provide."
+  },
+  {
+    "objectID": "teaching.html#if-i-have-already-agreed-to-write-you-a-letter",
+    "href": "teaching.html#if-i-have-already-agreed-to-write-you-a-letter",
+    "title": "Teaching",
+    "section": "If I have already agreed to write you a letter:",
+    "text": "If I have already agreed to write you a letter:\nI need a single email from you at least two weeks notice before the first deadline containing the following information:\n\nBasic logistical information:\n\nWhat name do you prefer for the letter (so that I don’t use Sue for Suzanne or vice-versa)?\nWhich pronouns (eg she/her, he/him, they/them) do you prefer?\n\nA list of all positions to which you are applying along with deadlines for each.\nA recent CV or resume and an unofficial transcript.\nAnswers to the following questions:\n\nFor what class(es) have I been your instructor for and how did you distinguish yourself in those class(es)? (Please note that if I have already agreed to write you a letter, then that means you likely have excellent test scores etc, and that information will already be in your letter.) Did we have any notable interactions I should highlight?\nWhat makes me especially qualified to write a letter for you, compared to other faculty you could have asked?\n\n\nIf it is 2-3 days before my letter is due and I have yet to upload it, then please send me a reminder email. These types of reminder emails are not a burden to me at all - I would feel terrible if your application were to be thrown out because I failed to upload, so let’s work together to make sure that doesn’t happen."
+  },
+  {
+    "objectID": "clusterpval/AnyCluster.html",
+    "href": "clusterpval/AnyCluster.html",
+    "title": "User-Specified Clustering Method Tutorial",
+    "section": "",
+    "text": "In this tutorial, we demonstrate how to use the clusterpval package to compute p-values for a difference in means between two clusters obtained by applying any user-specified clustering method to a data set.\nFirst, load the package:\nrequire(clusterpval)"
+  },
+  {
+    "objectID": "clusterpval/AnyCluster.html#plotting-and-clustering-data",
+    "href": "clusterpval/AnyCluster.html#plotting-and-clustering-data",
+    "title": "User-Specified Clustering Method Tutorial",
+    "section": "Plotting and clustering data",
+    "text": "Plotting and clustering data\nWe will illustrate the software on a subset of the Palmer penguins data, which contains data on three species of penguins: Adelie, Chinstrap, and Gentoo.\n\nrequire(palmerpenguins)\nrequire(ggplot2)\noptions(ggplot2.discrete.colour=list(RColorBrewer::brewer.pal(6, \"Dark2\")))\n\ndat &lt;- penguins[complete.cases(penguins), ]\ndat &lt;- dat[dat$sex == \"female\", c(1, 3, 5)]\n\nggplot(dat) + geom_point(aes(x=flipper_length_mm, y = bill_length_mm, \n                 shape=as.factor(species)), size = 3, fill=\"grey\", colour=\"black\") + \n  scale_shape_manual(name=\"Species\", values=c(21, 24, 22)) + \n  ylab(\"Bill length (mm)\") + xlab(\"Flipper length (mm)\") + coord_fixed() + \n  theme_bw(base_size=22) + ggtitle(\"Penguins\") + theme(legend.position=\"right\")\n\n\n\n\nWe will define a clustering function that takes a \\(n \\times p\\) numeric data matrix as input, and outputs integer assigments to clusters 1 through \\(k\\). The following snippet makes a function to run \\(k\\)-means clustering with \\(k = 3\\) and 50 random starts.\n\nkm_cluster &lt;- function(X) { \n  km &lt;- kmeans(X, 3, nstart=50)\n  return(km$cluster)\n}\n\nLet’s cluster the data using this custom clustering function. (We set the seed here because \\(k\\)-means clustering is a non-deterministic clustering method.)\n\nX &lt;- as.matrix(dat[, -c(1)]) # remove species and convert to matrix\nset.seed(123) \ncl &lt;- km_cluster(X)\n\ntable(dat$species, cl)\n\n           cl\n             1  2  3\n  Adelie     0  9 64\n  Chinstrap  0 28  6\n  Gentoo    57  1  0\n\nggplot(dat) + geom_point(aes(x=flipper_length_mm, y = bill_length_mm, \n                 shape=as.factor(species), fill=as.factor(cl)), size = 3, colour=\"black\") + \n  scale_fill_discrete(name=\"Clusters\", guide=guide_legend(ncol=2, override.aes=list(shape=21))) + \n  scale_shape_manual(name=\"Species\", values=c(21, 24, 22), guide=guide_legend(override.aes=list(fill=\"black\"))) +\n  ylab(\"Bill length (mm)\") + xlab(\"Flipper length (mm)\") + coord_fixed() + \n  theme_bw(base_size=22) + ggtitle(\"Penguins\") + theme(legend.position=\"right\") \n\n\n\n\nObserve that Cluster 1 contains Gentoo penguins, Cluster 2 contains mostly Chinstrap penguins, and Cluster 3 contains mostly Adelie penguins."
+  },
+  {
+    "objectID": "clusterpval/AnyCluster.html#testing-for-a-difference-in-means-between-clusters",
+    "href": "clusterpval/AnyCluster.html#testing-for-a-difference-in-means-between-clusters",
+    "title": "User-Specified Clustering Method Tutorial",
+    "section": "Testing for a difference in means between clusters",
+    "text": "Testing for a difference in means between clusters\nWe’ll test for a difference in means between Cluster 1 (containing Gentoo penguins) and Cluster 2 (containing mostly Chinstrap penguins) using the test_clusters_approx function. This approximately computes a p-value for the difference in means using Monte Carlo sampling. By default, this function plugs in a simple estimate of \\(\\sigma^2\\) given by \\(\\sum \\limits_{i=1}^n \\sum \\limits_{j=1}^p (x_{ij} - \\bar{x}_j)^2/(np-p)\\), where \\(\\bar{x}_j\\) is the mean of the \\(j\\)th feature. Note that if there really are clusters in the data, then this estimate will be larger than it should be, but if there really are no clusters in the data, then this estimate will be unbiased and consistent.\n\ntest_clusters_approx(X, k1=1, k2=2, cl_fun=km_cluster, cl=cl, ndraws=10000) # pass in the clustering function and the clustering results\n\n$stat\n[1] 18.74583\n\n$pval\n[1] 0.006990718\n\n$stderr\n[1] 0.0006831981\n\n$clusters\n  [1] 3 2 3 3 3 3 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 2 3 2 3\n [38] 3 3 3 3 3 2 3 3 3 3 3 3 3 2 3 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 2 3 3 3 3 3 1\n [75] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n[112] 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 2 2 3 2 2 2 2 2 2 3 3 2 2 2 3 3\n[149] 2 2 2 2 2 2 2 2 2 2 3 2 2 2 2 2 2\n\n\nIn the results above, the estimated p-value comes from Monte Carlo, which means that it is subject to Monte Carlo sampling error. Thus, we also report a standard error estimate for the p-value, that captures the uncertainty due to Monte Carlo sampling error. If more precision is desired, you could adjust the number of Monte Carlo samples using the ndraws argument of test_clusters_approx. Since we opted to pass in the estimated clusters cl, the output under $clusters just prints cl. If we had opted to not pass in the estimated clusters cl, then the test_clusters_approx function would run km_cluster(X), and return it in the $clusters output.\nObserve that the estimated p-value for a difference in means between Cluster 1 and Cluster 2 is small - this is good, because the penguin species are different in the two clusters.\n\n© 2020 Lucy L. Gao (lucylgao at uwaterloo dot ca)"
+  },
+  {
+    "objectID": "clusterpval/index.html",
+    "href": "clusterpval/index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "clusterpval is an R package that tests the null hypothesis of no difference in means between two estimated clusters in a data set."
+  },
+  {
+    "objectID": "clusterpval/index.html#what-is-clusterpval",
+    "href": "clusterpval/index.html#what-is-clusterpval",
+    "title": "Introduction",
+    "section": "",
+    "text": "clusterpval is an R package that tests the null hypothesis of no difference in means between two estimated clusters in a data set."
+  },
+  {
+    "objectID": "clusterpval/index.html#how-do-i-get-clusterpval",
+    "href": "clusterpval/index.html#how-do-i-get-clusterpval",
+    "title": "Introduction",
+    "section": "How do I get clusterpval?",
+    "text": "How do I get clusterpval?\nIn R, make sure that the devtools package is installed (install.packages(\"devtools\")) and then run:\n\ndevtools::install_github(\"lucylgao/clusterpval\")\n\nThis command installs the latest version of the package from Github."
+  },
+  {
+    "objectID": "clusterpval/index.html#why-is-clusterpval-needed",
+    "href": "clusterpval/index.html#why-is-clusterpval-needed",
+    "title": "Introduction",
+    "section": "Why is clusterpval needed?",
+    "text": "Why is clusterpval needed?\nDouble dipping - generating a hypothesis based on your data, and then testing the hypothesis on that same data - causes classical hypothesis tests like the \\(t\\)-test, \\(Z\\)-test (a.k.a. the Wald test), and the Wilcoxon test not to control the Type I error rate. To illustrate, below lies a simulated data set containing no clusters. In this data set, estimating three clusters via hierarchical clustering, then testing for differences of means between the estimated clusters using the Wald test yields tiny p-values that are less than 0.0001! In other words, unless we correct for double dipping, the p-values will be invalid.\n\n\n\nThis is where clusterpval comes in! It computes valid p-values for a difference in means by correcting for double dipping. This results in tests that properly control the Type I error rate. In the example above, clusterpval yields p-values of 0.98, 0.07, and 0.91 when testing for a difference in means between the three pairs of estimated clusters. This is sensible, because there are no true clusters in the data illustrated above."
+  },
+  {
+    "objectID": "clusterpval/index.html#where-can-i-learn-more",
+    "href": "clusterpval/index.html#where-can-i-learn-more",
+    "title": "Introduction",
+    "section": "Where can I learn more?",
+    "text": "Where can I learn more?\nRead about the tests in the paper, Selective Inference for Hierarchical Clustering, or read a summary of the technical machinery here.\nHear about the tests by watching this talk.\nGet started with the tutorial for the case when clusters are estimated via hierarchical clustering here, or the tutorial for the case when clusters are estimated via any user-specified clustering method (like \\(k\\)-means clustering) here."
+  },
+  {
+    "objectID": "group.html",
+    "href": "group.html",
+    "title": "Research Group",
+    "section": "",
+    "text": "Andrew Kenig, Waterloo Statistics PhD | 2021-current\n\nCo-supervised with Shoja’eddin Chenouri\n\n\n\n\nThu Nguyen, UBC MSc (2023)\nSteven Mak, Waterloo MMath (2022)\nQiaoyu Liang, Waterloo MMath (2021)\n\nFirst position after graduation: PhD Statistics student at the University of Toronto"
+  },
+  {
+    "objectID": "group.html#phd-students",
+    "href": "group.html#phd-students",
+    "title": "Research Group",
+    "section": "",
+    "text": "Andrew Kenig, Waterloo Statistics PhD | 2021-current\n\nCo-supervised with Shoja’eddin Chenouri"
+  },
+  {
+    "objectID": "group.html#alumni",
+    "href": "group.html#alumni",
+    "title": "Research Group",
+    "section": "",
+    "text": "Thu Nguyen, UBC MSc (2023)\nSteven Mak, Waterloo MMath (2022)\nQiaoyu Liang, Waterloo MMath (2021)\n\nFirst position after graduation: PhD Statistics student at the University of Toronto"
+  },
+  {
+    "objectID": "group.html#will-i-be-your-mscphd-supervisor-at-ubc",
+    "href": "group.html#will-i-be-your-mscphd-supervisor-at-ubc",
+    "title": "Research Group",
+    "section": "Will I be your MSc/PhD supervisor at UBC?",
+    "text": "Will I be your MSc/PhD supervisor at UBC?\n\nProspective students:\nAt UBC, all applications are reviewed by our admissions committee and students do not need to (or can they) find supervisors prior to admissions. Furthermore, all applications are considered for funding, and you do not need to separately apply for funding from a specific faculty member.\nAll I can tell you prior to admission is whether I am open to the idea of onboarding a MSc and PhD student to my research group in the coming academic years.\n\n\nCurrent students:\nI encourage you to reach out to me by email to schedule an informational meeting. If you are a PhD student, I also encourage you to do a STAT 548 paper with me."
+  },
+  {
+    "objectID": "group.html#will-i-be-your-mmathphd-supervisor-at-waterloo",
+    "href": "group.html#will-i-be-your-mmathphd-supervisor-at-waterloo",
+    "title": "Research Group",
+    "section": "Will I be your MMath/PhD supervisor at Waterloo?",
+    "text": "Will I be your MMath/PhD supervisor at Waterloo?\nFirst, note that I have zero control over graduate admissions at Waterloo.\nSecond, note that I am far from an ideal MMath or PhD supervisor, as I am an adjunct member of the department. (That means I am an unpaid, part-time, temporary faculty member.) Moreover, I live in Vancouver and I imagine that you live in Waterloo.\nIf you really want to work with me, then you may be able to arrange for co-supervision with a non-adjunct Waterloo Statistics faculty member. If you are interested in this option, then please make sure to discuss it with your proposed co-supervisor before contacting me - it is not safe to assume that they would be interested in co-supervising you with me, or in fact in co-supervision at all!"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources for Students",
+    "section": "",
+    "text": "I have come across a number of resources for helping students navigate graduate school, academia, research, and career planning. These are especially helpful for students looking to understand typically unwritten customs and procedures. This page is by no means comprehensive but I do update it when I find new goodies!\n(Caveat: these resources resonate with my own experiences in USA and Canada, but may not generalize to experiences in other countries.)\n\nOn interacting with faculty\n\nGuide to Interacting With Faculty\nAdressing People in Academia\nEmailing a Professor: How to Do It Well\n\n\n\nOn graduate school and research\n\nAdvice on applying to Graduate School\nOn Personal/Research Statements for Statistics/Biostatistics Graduate Program Applications\nMaintaining Work-Life Balance in a Stat-ML PhD\n\n\n\nOn the academic job market\n\nAcademic Cover Letters for Statistical Science Faculty Positions\nAcademic CVs for Statistical Science Faculty Positions"
+  }
+]

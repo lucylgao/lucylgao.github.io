@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lucy L. Gao"
+  search: false
+  navbar:
+    right:
+      - href: research.qmd
+        text: Research
+      - href: group.qmd
+        text: Research Group
+      - href: teaching.qmd 
+        text: Teaching 
+      - href: resources.qmd
+        text: Resources for Students
+        
+  sidebar: 
+    - title: "clusterpval"
+      style: "docked"
+      background: light
+      contents:   
+        - clusterpval/index.qmd
+        - clusterpval/technical.qmd
+        - clusterpval/HierCluster.qmd
+        - clusterpval/AnyCluster.qmd
+        
+  page-footer:
+    border: false
+    right: "© 2022, Lucy L. Gao"
+    center: |
+      <a href="https://twitter.com/lucylgao"><i class="bi bi-twitter"></i></a>
+      <a href="https://github.com/lucylgao"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/lucy-gao-2120b974/"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:lucy.gao@stat.ubc.ca"><i class="bi bi-envelope"></i></a>
+
+format:
+  html:
+    theme: yeti
+    css: assets/styles.css
+    toc: true
+
+editor: source
+

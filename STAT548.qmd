@@ -1,0 +1,68 @@
+---
+title: "STAT 548 PhD Qualifying Course Papers"
+sidebar: false
+---
+
+**Last updated**: March 2024
+
+## Getting Started
+
+I am a biostatistician with a strong background in general statistical methodology, especially in the area of statistical machine learning. You can learn more specifics about my research from the Research page on my website or from my Twitter (link on the bottom of this page).
+
+If you are interested in doing a qualifying paper (QP) with me, then please email me to schedule a one-on-one meeting. At our first meeting, please be prepared to discuss:
+
+-   Your background.
+
+-   Your long-term research interests (it's okay if these are not yet well-defined).
+
+-   Why you are interested in the particular paper/project.
+
+-   When you will submit your report (typically about four-six weeks after we meet).
+
+To ensure a productive meeting, please do a preliminary review of the paper before we meet.
+
+## Deliverables
+
+### Report
+
+The final report for your QP will be in pdf form and typeset in LaTeX with 1.5 spacing and 12 point font. It will have three major components:
+
+1.  An extended review of the paper. (Max 4 pages)
+2.  A mini-research project addressing a question you might have after reading the paper. (Max 4 pages)
+3.  A discussion of an idea for a research project you have after reading the paper. (Max 2 pages)
+
+In the first part, you should write a high-level review of the ideas in the paper, followed by a thoughtful evaluation of the significance and limitations of the work. Conclude with at least two questions you have for the authors. This structure matches that of reviews of papers submitted to a journal, and will help you practice thinking critically about papers you read.
+
+In the second part, you may either choose a question I have provided below, or propose a new question. If you propose a new question, think very carefully about scope -- you want to be able to provide at least a somewhat satisfying answer to the question within your timeline! In either case, I expect the content of this part of your report to contain some arguments based on mathematical/statistical understanding, and some arguments based on simulation results.
+
+In the third part, you will demonstrate your ability to think creatively and savvily about research. First, introduce your research idea; to help you brainstorm, common "classes" of research projects include generalizations, extensions, or novel applications of the paper. Then, explain how impactful this research would be if it succeeded. Finally, explain how feasible the idea is. This content matches what you would find in any project proposal, whether it be at a company or in academia.
+
+### Final Checklist
+
+When you are ready to submit, provide me with:
+
+-   The report (everything needed to generate the pdf report plus the pdf report itself).
+
+-   All code needed to reproduce all experimental/numerical results in the report. All code should have informative file names (e.g. Figure1.R) and be clearly commented and documented. Code can be in any language you wish, though I strongly prefer R.
+
+## Paper Options
+
+The papers listed below are relevant to the type of PhD dissertation I am most interested in supervising right now: methodological work on validation and inference for statistical machine learning models, especially of the unsupervised sort. That being said, I am broadly interested in applications/methodology/theory in biostatistics and applications/methodology in statistical learning. I am happy to open a dialogue with you if there is a paper that fits those characteristics you are particularly interested in working on with me.
+
+1. **(TAKEN)** ~~Bourgon, Gentleman, and Huber (2010). [Independent filtering increases detection power for high-throughput experiments](https://www.pnas.org/doi/10.1073/pnas.0914005107).~~
+
+-   **Topics**: Genomics, multiple testing, selective inference 
+- **Question Idea**: Do mean and variance filters satisfy the marginal independence criterion when the data are non-Gaussian?
+
+2. **(TAKEN)** ~~Christian Hennig (2007). [Cluster-wise assessment of cluster stability](http://www.homepages.ucl.ac.uk/~ucakche/papers/clusta.pdf).~~ 
+
+-   **Topics**: Unsupervised learning, model validation
+-   **Question Idea**: Is the bootstrapped distribution of maximum Jaccard coefficient a good approximation to the distribution it attempts to approximate? (See page 6).
+
+3. Efron and Tibshirani (1997). [Improvements on cross-validation: The .632+ Bootstrap Method](https://sites.stat.washington.edu/courses/stat527/s13/readings/EfronTibshirani_JASA_1997.pdf)
+- **Topics**: Supervised learning, model validation 
+- **Question Idea**: What is a characteristic of the training set that could impact the bias of cross-validation as an estimator of conditional error rate? 
+
+------------------------------------------------------------------------
+
+Attribution: Inspired by many colleagues, including Daniel, Yongjin, Trevor, Geoff, and Ben.

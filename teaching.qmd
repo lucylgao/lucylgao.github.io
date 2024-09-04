@@ -1,0 +1,40 @@
+---
+sidebar: false
+---
+
+# Teaching
+
+In most years, I am the instructor for **STAT 545**: a graduate course that teaches students how to write a clean and modern data analysis.  You can find out more about STAT 545 by visiting [the course website](https://stat545.stat.ubc.ca/). 
+
+In any given year, I may have available **STAT 548** qualifying projects: see [this page](STAT548.qmd).
+
+# Letters of recommendation 
+
+## If I have not already agreed to write you a letter: 
+
+Please email me at least **a month** before your first application deadline to ask whether I would be willing to write you a reference letter. Here is how I decide whether to say yes or no. 
+
+I almost always accept requests if I am able to provide a strong letter. However, it is impossible for me to write a strong letter unless we have regularly interacted. Your graduate application should ideally include **at least one** strong letter. 
+
+If we did not interact regularly, but you achieved top scores in my class, then I can provide a "took a class with me" type letter. These types of letters are generally viewed by the graduate admissions committee as somewhere between lukewarm and moderately strong, depending on how much supporting detail I can provide. 
+
+## If I have already agreed to write you a letter: 
+
+I  need **a single email** from you at least **two** weeks notice before the first deadline containing the following information: 
+
+- Basic logistical information: 
+
+  - What name do you prefer for the letter (so that I don't use Sue for Suzanne or vice-versa)? 
+  - Which pronouns (eg she/her, he/him, they/them) do you prefer?
+
+- A list of all positions to which you are applying along with deadlines for each. 
+
+- A recent CV or resume and an unofficial transcript. 
+
+- Answers to the following questions: 
+
+  - For what class(es) have I been your instructor for and how did you distinguish yourself in those class(es)? (Please note that if I have already agreed to write you a letter, then that means you likely have excellent test scores etc, and *that information will already be in your letter*.) Did we have any notable interactions I should highlight? 
+
+  -  What makes me especially qualified to write a letter for you, compared to other faculty you could have asked?
+  
+If it is 2-3 days before my letter is due and I have yet to upload it, then please send me a **reminder email**. These types of reminder emails are not a burden to me at all - I would feel terrible if your application were to be thrown out because I failed to upload, so let's work together to make sure that doesn't happen. 
