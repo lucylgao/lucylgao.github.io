@@ -3,15 +3,15 @@ title: "Research"
 sidebar: false
 ---
 
-## Current research profile  
+## Research profile  
 
 The core of my research program investigates model validation and inference in the context of statistical machine learning. As scientists fit increasingly complex models to their data, there is an ever-growing need for methods that quantify our uncertainty in the quality of these models, and for methods that can formally test  results suggested by these models. My work seeks to fill this gap, especially within the context of unsupervised learning, where existing methods for validation and inference are limited compared to the supervised learning setting. My research program has expanded our statistical toolkit for using a single data set to  fit a supervised or unsupervised learning model and to (1) test hypotheses suggested by that fitted model, (2) assess the stability of that fitted model, or (3) accurately estimate the prediction error of that fitted model. The methods developed in the course of my research program are relevant to many application domains, and have particular impact in the field of single-cell genomics, where the output of unsupervised learning models are routinely used as surrogates for unobserved aspects of cell states. 
 
 I have secondary interests in developing theory and methodology in the area of optimal experiment design and the selection of hyperparameters for statistical machine learning algorithms. These diverse areas are unified by my interest in adapting key ideas from the mathematical optimization community to statistical problems. 
 
-## Publications
+## Publications (stale)
 
-In the following, \* represents alphabetical author ordering.
+For an up to date publication list, see [Google Scholar](https://scholar.google.ca/citations?user=5lNKqhIAAAAJ&hl=en). In the following, \* represents alphabetical author ordering.
 
 ## Pre-prints 
 Yiqun T. Chen and **Lucy L. Gao**. Testing for a difference in means of a single feature after clustering. [[pdf](https://arxiv.org/pdf/2311.16375.pdf)]

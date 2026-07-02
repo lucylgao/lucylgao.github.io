@@ -32,14 +32,14 @@
     "href": "index.html",
     "title": "Lucy L. Gao",
     "section": "",
-    "text": "NOTE: I am on leave between September 1 2024 and August 31, 2025.\nI am an Assistant Professor of Statistics at the University of British Columbia. I work on:\n\nStatistical methods at the intersection of biostatistics and statistical learning, and\nStatistical theory and methodology for the optimal design of experiments."
+    "text": "I am a Senior Scientist at Uber and an Adjunct Assistant Professor of Statistics at the University of Waterloo. Previously, I held an appointment at the University of British Columbia. My research spans:\n\nStatistical methods at the intersection of biostatistics and statistical learning, and\nStatistical theory and methodology for the optimal design of experiments."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Lucy L. Gao",
     "section": "",
-    "text": "NOTE: I am on leave between September 1 2024 and August 31, 2025.\nI am an Assistant Professor of Statistics at the University of British Columbia. I work on:\n\nStatistical methods at the intersection of biostatistics and statistical learning, and\nStatistical theory and methodology for the optimal design of experiments."
+    "text": "I am a Senior Scientist at Uber and an Adjunct Assistant Professor of Statistics at the University of Waterloo. Previously, I held an appointment at the University of British Columbia. My research spans:\n\nStatistical methods at the intersection of biostatistics and statistical learning, and\nStatistical theory and methodology for the optimal design of experiments."
   },
   {
     "objectID": "index.html#address-and-phone",
@@ -285,5 +285,19 @@
     "title": "Resources for Students",
     "section": "",
     "text": "I have come across a number of resources for helping students navigate graduate school, academia, research, and career planning. These are especially helpful for students looking to understand typically unwritten customs and procedures. This page is by no means comprehensive but I do update it when I find new goodies!\n(Caveat: these resources resonate with my own experiences in USA and Canada, but may not generalize to experiences in other countries.)\n\nOn interacting with faculty\n\nGuide to Interacting With Faculty\nAdressing People in Academia\nEmailing a Professor: How to Do It Well\n\n\n\nOn graduate school and research\n\nAdvice on applying to Graduate School\nOn Personal/Research Statements for Statistics/Biostatistics Graduate Program Applications\nMaintaining Work-Life Balance in a Stat-ML PhD\n\n\n\nOn the academic job market\n\nAcademic Cover Letters for Statistical Science Faculty Positions\nAcademic CVs for Statistical Science Faculty Positions"
+  },
+  {
+    "objectID": "research.html#research-profile",
+    "href": "research.html#research-profile",
+    "title": "Research",
+    "section": "",
+    "text": "The core of my research program investigates model validation and inference in the context of statistical machine learning. As scientists fit increasingly complex models to their data, there is an ever-growing need for methods that quantify our uncertainty in the quality of these models, and for methods that can formally test results suggested by these models. My work seeks to fill this gap, especially within the context of unsupervised learning, where existing methods for validation and inference are limited compared to the supervised learning setting. My research program has expanded our statistical toolkit for using a single data set to fit a supervised or unsupervised learning model and to (1) test hypotheses suggested by that fitted model, (2) assess the stability of that fitted model, or (3) accurately estimate the prediction error of that fitted model. The methods developed in the course of my research program are relevant to many application domains, and have particular impact in the field of single-cell genomics, where the output of unsupervised learning models are routinely used as surrogates for unobserved aspects of cell states.\nI have secondary interests in developing theory and methodology in the area of optimal experiment design and the selection of hyperparameters for statistical machine learning algorithms. These diverse areas are unified by my interest in adapting key ideas from the mathematical optimization community to statistical problems."
+  },
+  {
+    "objectID": "research.html#publications-stale",
+    "href": "research.html#publications-stale",
+    "title": "Research",
+    "section": "Publications (stale)",
+    "text": "Publications (stale)\nFor an up to date publication list, see Google Scholar. In the following, * represents alphabetical author ordering."
   }
 ]
